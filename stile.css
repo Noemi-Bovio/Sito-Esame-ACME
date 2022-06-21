@@ -1,7 +1,7 @@
 .background { font-family: 'Tiro Devanagari Sanskrit', serif;
   margin:0px;
   background-image: url(https://thedesignfiles.net/wp-content/uploads/2019/12/Emma-Currie-studio-visit-tdf-b-2200x963.jpg);
-  background-repeat: no-repeat;
+  background-repeat;
   background-attachment: fixed;
   background-size: 100%;}
 
@@ -11,53 +11,342 @@
   position: fixed;
   opacity: 0.9;
   width: 100%;
-  height: 70px;
+  height: 75px;
   margin: 0px;}
 
 .bandiere {
-  width:25;
-    height:10px;
-  margin:0px; 
-  margin-left:60px; 
-  margin-top:20px;
+  width: 45px;
+  height: 30px;
+  float: left;
+  margin: 20px -15px 0px 35px
 }
 
-#italia{
-  height:25px;
-  width:40px;
-  margin-left:10px;
-}
-
-#uk{
-  height:25px;
-  width:40px;
-  margin-left:10px;
-}
-
-#cina{
-  height:25px;
-  width:40px;
-  margin-left:10px;
-}
-
-#logo{
+.logo{
   height:80px;
   width:150px;
-  margin-left:650px;
-  margin-top: -58px
+  margin-left:485px;
+  margin-top: -5px;
 }
 
+#quadratino {border:2px solid red; 
+  position:fixed; 
+  top:18px; 
+  right:30px; 
+  height:32px;
+  width:80px; 
+  border-radius:6px;}
 
-.boxtondo {
-  border:3px solid black;
-  max-width: 600px; 
+#boxtondo {border:3px solid white;
+  width:550px; 
+  height:160px;
   margin: auto; 
-  background-color: pink; 
-  border-radius: 28px; 
+  text-align: center;
+  background-color: #D4E4F7;
+  border-radius: 10px;
+  opacity: 0.9;  
+ }
+
+.animazione{
+ width: 550px; 
+ height:160px;
+ border-radius: 10px, 
+ border:3px solid red;
+ animation-name: example;
+ animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {border:3px solid red;border-radius: 10px}
+  25%  {border:3px solid yellow;border-radius: 10px}
+  50%  {border:3px solid blue;border-radius: 10px}
+  100% {border:3px solid green;border-radius: 10px}
+}
+
+#spazio{
+  padding-top: 150px;
+  margin: auto;
+  min-width: 1001px;
+  max-width: 1200px;
+}
+
+h1 { color: black; 
+  font-size:36px;
+  text-align: center;
+  margin-top:40px;
+  text-shadow: 0px 0px 10px white;
+  }
+
+h8 {color: black;
+  font-size:16px;
+  font-family:Helvetica;
+  text-align: center;
+  text-shadow: 0px 0px 10px white;}
+}
+
+#spazio{
+  padding-top: 50px;
+  margin: auto;
+  height: 80px;
+  width: 70px;}
+  
+@media screen and (max-width: 400px) 
+  
+#bottoncinocookie {
+  position: fixed;
+  top: 120px;
+  left: 20px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+#cookie{
+  color: white;
+  font-size:10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px
+}
+#perchiudere{
+  font-size: 15px;
+  margin-left: 185px;
+}
+
+#spazio1{
+  padding-top: 40px;
+  margin: auto;
+  width: -50px;
+  height: -70px;
+}
+
+h3{
+  text-align: center;
+  font-family:Helvetica;
+}
+h5 {
+  font-size:12px;
+  font-family:Helvetica;
   text-align: center;
  }
 
-.titolobox { color: black; 
-  ;}
-  
+#box1{
+  height: 220px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px; 
 }
+.tasto{
+  display: inline-block;
+  margin: 25px 50px 20px -15px;
+  color: black;
+}
+.box1{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   width: 1100px;
+   height: 900px;
+   margin: 20px auto 0px auto;
+   border-radius:10px;
+}
+
+.box2{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1000px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
+}
+
+a:link{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color: black !important;
+  text-decoration: none;
+}
+
+a:visited{
+  color:white;
+  text-decoration: none;
+}
+
+h4{
+  font-size:12px;
+  font-family:Helvetica;
+  letter-spacing: 5px; 
+  margin-top: 10px;
+ }
+
+h2{
+  border-left: 10px solid orange;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  font-size:35px;
+}
+.scritta1{
+  display: inline-block;
+  width: 550px;
+}
+
+h6{
+  font-size:14px;
+  font-family:Helvetica;
+  margin-top: 10px;
+ }
+
+.video {width: 50%; 
+  height: 35%;
+  margin:auto;
+  display: inline-block;
+  }
+
+.immagine {width: 500px; 
+  height: 250px;
+  margin-left: 80px;
+  margin-top: 25px;
+  display: inline-block;
+  }
+
+.scritta2{
+  display: inline-block; 
+  margin-left: 700px;
+  margin-top: -700px;
+}
+
+#boxtondo1 {border:4px solid white;
+  width: 1200px;
+  height: 75px;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px;
+  opacity: 0.9;  
+ }
+
+
+
+h7{
+  font-size:36px;
+  color: white;
+   margin: auto;
+  text-align: center;
+ }
+
+.dipartimenti {background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1000px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
+}
+
+
+#pittura{
+  border-radius:10px;
+  border: 3px solid orange;
+  text-align: center;
+  padding: 20px;
+  height: 150px;
+  width: 400px;
+  margin-left: 90px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+u{ color: orange;}
+
+#grafica{
+   border-radius:10px;
+  border: 3px solid orange;
+  text-align: center;
+  padding: 20px;
+  height: 150px;
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 40px;
+  display: inline-block;
+}
+#scenografia{
+  border-radius:10px;
+  border: 3px solid orange;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
+  display: inline-block;
+}
+#impresa{
+  border-radius:10px;
+  border: 3px solid orange;
+  text-align: center;
+  padding: 20px;
+  height: 280px;
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 40px;
+  display: inline-block;
+}
+#tecnologie{
+  border-radius:10px;
+  border: 3px solid orange;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
+  display: inline-block;
+}
+#comunicazione{
+  border-radius:10px;
+  border: 3px solid orange;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  margin-left: 380px;
+  margin-top: 40px;
+  display: inline-block;
+}
+#map {
+  width: 1000px;
+  height: 250px;
+  margin-left:50px
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  #map {
+    width: 400px,;
+    height: 200px;
+    margin:auto
+  }
+  
+  .top {
+  color: white;
+  background-color: none;
+  position: fixed-right;
+  bottom: 20px;
+  right: 40px;
+  text-align: center;
+}
+  
+  #freccina{
+  text-shadow: 0px 0px 10px hsl(0, 130%, 68%);
+
+
