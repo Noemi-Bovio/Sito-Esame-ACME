@@ -327,7 +327,7 @@ footer{
   padding: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+
   #map {
     width: 400px,;
     height: 200px;
