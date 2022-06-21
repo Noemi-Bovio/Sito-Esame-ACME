@@ -1,3 +1,3 @@
 # Sito-Esame-ACME
-Creazione sito esame, 
+Creazione sito per esame di Web Design 
 https://noemiboviositoacme.netlify.app
