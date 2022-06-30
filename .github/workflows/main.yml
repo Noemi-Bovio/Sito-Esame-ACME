@@ -28,19 +28,7 @@ jobs:
       uses: Cyb3r-Jak3/html5validator-action@v7.1.1
       with:
         # Path of the files to test
-        root: esercizi/ # optional
-        # Path of config file
-        #config: # optional
-        # Extra arguments to test with
-        #extra: # optional
-        # Format for logging output. Valid values: gnu,xml,json,text
-        #format: # optional
-        # Logging Level. Valid values: DEBUG, INFO, WARNING. Default: WARNING
-        #log_level: DEBUG # optional, default is WARNING
-        # Checks css as well
-        #css: # optional
-        # Files or directories to ignore in checking
-        #blacklist: # optional
+        root: ./ # optional
       continue-on-error: true
 
     - name: Upload Artifact
