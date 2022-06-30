@@ -334,7 +334,7 @@ u{ color: orange;}
   margin-left: 185px;
 }
 #freccina{
-  color: orange;
+  float: right;
 }
 #map {
   width: 1000px;
