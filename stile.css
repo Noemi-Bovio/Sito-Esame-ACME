@@ -313,6 +313,26 @@ u{ color: orange;}
   margin-top: 40px;
   display: inline-block;
 }
+#bottoncinocookie {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+#cookie{
+  color: white;
+  font-size:10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+#perchiudere{
+  font-size: 15px;
+  margin-left: 185px;
+}
 #map {
   width: 1000px;
   height: 250px;
