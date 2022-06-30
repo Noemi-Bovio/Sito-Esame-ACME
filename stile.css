@@ -348,10 +348,7 @@ footer{
   width: 100%;
   padding: 5px;
 }
-.fot{
-    margin: 0px;
-  }
-  #map {
+#map {
     width: 100%;
     height: 200px;
     margin: 40px auto auto auto;
