@@ -65,7 +65,18 @@
   50%  {border:3px solid blue;border-radius: 10px}
   100% {border:3px solid green;border-radius: 10px}
 
-    h1 { color: black; 
+@media screen and (max-width: 690px) {
+  #boxtondo{ 
+  min-width: 100px;
+  max-width: 580px;
+  margin: auto;
+  text-align: center;
+  background-color: #D4E4F7;
+  border-radius: 10px;
+  padding:10px;
+  }
+
+h1 { color: black; 
   font-size:36px;
   text-align: center;
   margin-top: 10px; 
@@ -79,18 +90,6 @@ h8 {color: black;
   margin-top: 10px; 
   text-shadow: 0px 0px 10px white;}
 }
-
-@media screen and (max-width: 690px) {
-  #boxtondo{ 
-  min-width: 100px;
-  max-width: 580px;
-  margin: auto;
-  text-align: center;
-  background-color: #D4E4F7;
-  border-radius: 10px;
-  padding:10px;
-  }
-
   
 #spazio{
   padding-top: 150px;
