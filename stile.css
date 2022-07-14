@@ -4,6 +4,8 @@
   width: 100%;
   background-size: 100%;
   background-size: cover;
+  -moz-background-size: cover;
+-webkit-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
