@@ -40,17 +40,16 @@
 #boxtondo {
   border:3px solid white;
   min-width: 100px;
-  max-width: 550px; 
+  max-width: 600px; 
   margin: auto;
   text-align: center;
   background-color: #D4E4F7;
-  border-radius: 10px;
-  opacity: 0.9;  
+  border-radius: 10px; 
  }
 
 .animazione{
  min-width: 100px;
- max-width: 550px; 
+ max-width: 600px; 
  text-align: center;
  border-radius: 10px;
  margin: auto;
@@ -68,13 +67,12 @@
 @media screen and (max-width: 690px) {
   #boxtondo{ 
   min-width: 100px;
-  max-width: 550px; 
+  max-width: 600px; 
   margin: auto;
   text-align: center;
   font-size: 10px;
   background-color: #D4E4F7;
   border-radius: 10px;
-  opacity: 0.9;  
   }
   
 #spazio{
