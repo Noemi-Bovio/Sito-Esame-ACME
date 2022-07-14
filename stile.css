@@ -24,14 +24,14 @@
 .bandiere {
   width: 45px;
   height: 30px;
-  float: none;
+  float: left;
   margin: 20px -15px 0px 35px;
 }
 
 .logo{
   height: 80px;
   width: 150px;
-  float: left;
+  float: right;
   margin-top: -5px;
 }
 
