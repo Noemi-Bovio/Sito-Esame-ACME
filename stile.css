@@ -34,6 +34,14 @@
   float: right;
   margin-top: -5px;
 }
+@media screen and (max-width: 690px) 
+{
+  #bandatop { 
+  min-width: 100px;
+  max-width: 580px;
+  margin: auto;
+  text-align: center;
+  }
 
 #boxtondo {
   border:3px solid white;
