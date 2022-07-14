@@ -39,7 +39,7 @@
 {
   #bandatop{ 
   min-width: 100px;
-  max-width: 600px;
+  max-width: 480px;
   margin: auto;
   text-align: center;
   border-bottom: 3px solid red; 
