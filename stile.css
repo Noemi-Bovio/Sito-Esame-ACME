@@ -8,6 +8,13 @@
   background-position: center;
   }
 
+@media screen and (max-width: 690px) 
+{
+  .background { 
+  min-width: 100px;
+  max-width: 580px;
+  margin: auto;
+  }
 
 #bandatop {
   border-bottom: 3px solid red; 
