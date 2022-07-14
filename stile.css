@@ -37,8 +37,8 @@
   border-radius:6px;}
 
 #boxtondo {border:3px solid white;
-  width:550px; 
-  height:160px;
+  min-width: 100px;
+  max-width: 550px; 
   margin: auto; 
   text-align: center;
   background-color: #D4E4F7;
@@ -64,13 +64,13 @@
 
 @media screen and (max-width: 480px) {
   #boxtondo{ 
-    min-width: 5px;
-    max-width: 480px;
-    background-color: #D4E4F7;
-    margin: auto;
-    text-align: center;
-    border-radius: 10px;
-    opacity: 0.9;  
+  min-width: 100px;
+  max-width: 550px; 
+  margin: auto; 
+  text-align: center;
+  background-color: #D4E4F7;
+  border-radius: 10px;
+  opacity: 0.9;  
   }
   
 #spazio{
