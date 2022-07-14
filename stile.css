@@ -36,11 +36,7 @@
 }
 @media screen and (max-width: 480px) 
 {
-  #bandatop { 
-  border-bottom: 3px solid red; 
-  background-color: white;
-  position: fixed;
-  opacity: 0.9;
+.logo { 
   max-width: 480px;
   min-width: 100px;
   margin: auto;
