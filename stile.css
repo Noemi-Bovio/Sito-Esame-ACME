@@ -149,7 +149,7 @@ h5 {
   color: black;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #box1{
     background-color: orange;
     padding: 20px;
