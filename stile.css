@@ -64,8 +64,7 @@
 
 @media screen and (max-width: 480px) {
   #boxtondo{
-    min-width: 100px;
-    max-width: 400px;
+
   background-color: #D4E4F7;
     margin: auto;
     text-align: center;
