@@ -25,13 +25,13 @@
   width: 45px;
   height: 30px;
   float: left;
-  margin: 20px -15px 0px 35px
+  margin: 20px -15px 0px 35px;
 }
 
 .logo{
   height: 80px;
   width: 150px;
-  margin-left: 400px;
+  margin-left: -400px;
   margin-top: -5px;
 }
 
