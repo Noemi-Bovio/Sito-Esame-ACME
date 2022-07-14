@@ -1,11 +1,14 @@
-.background { font-family: 'Tiro Devanagari Sanskrit', serif;
-  margin:0px;
-  min-width:690px;
-  max-width: 1200px; 
-  background-repeat;
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  width: 100%;
+  background-image: url("immagini/fabio-viale.jpeg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;}
-
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;}
+  
 #bandatop {
   border-bottom: 3px solid red; 
   background-color: white;
