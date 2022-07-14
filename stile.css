@@ -17,8 +17,8 @@
   position: fixed;
   opacity: 0.9;
   width: 100%;
-  height: 75px;
-  margin: auto;
+  height: auto;
+  padding: 5px 0px;
 }
 
 .bandiere {
@@ -34,6 +34,25 @@
   float: right;
   margin-top: -5px;
 }
+
+}
+@media screen and (max-width: 600px) {
+  #headline {
+    text-align: center;
+    padding: 10px;
+  }
+
+@media screen and (max-width: 690px) 
+{
+  #boxtondo{ 
+  min-width: 100px;
+  max-width: 580px;
+  margin: auto;
+  text-align: center;
+  background-color: #D4E4F7;
+  border-radius: 10px;
+  padding:5px;
+  }
 
 #boxtondo{
   border:3px solid white;
