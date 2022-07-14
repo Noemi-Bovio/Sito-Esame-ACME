@@ -42,7 +42,6 @@
   min-width: 100px;
   max-width: 550px; 
   margin: auto;
-  padding: 10px;
   text-align: center;
   background-color: #D4E4F7;
   border-radius: 10px;
@@ -53,10 +52,8 @@
  min-width: 100px;
  max-width: 550px; 
  text-align: center;
- font-size: 10px;
  border-radius: 10px;
  margin: auto;
- padding: 10px;
  animation-name: example;
  animation-duration: 10s;
 }
@@ -73,7 +70,6 @@
   min-width: 100px;
   max-width: 550px; 
   margin: auto;
-  padding: 10px;
   text-align: center;
   font-size: 10px;
   background-color: #D4E4F7;
