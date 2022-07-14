@@ -11,6 +11,19 @@
   background-position: center;
   }
 
+@media screen and (max-width: 690px) 
+{
+  #bandatop{ 
+  min-width: 100px;
+  max-width: 580px;
+  margin: auto;
+  text-align: center;
+  background-color: #D4E4F7;
+  border-radius: 10px;
+  padding:5px;
+  }
+  
+
 #bandatop {
   border-bottom: 3px solid red; 
   background-color: white;
