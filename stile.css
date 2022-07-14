@@ -8,7 +8,7 @@
   }
 
 @media screen and (max-height:1200px) 
-  .background-image:{ max-height:1200px; 
+  { .background-image:   {max-height:1200px; 
     min-height:100px; 
   }
 
@@ -74,7 +74,8 @@
   100% {border:3px solid green;border-radius: 10px}
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 690px) 
+{
   #boxtondo{ 
   min-width: 100px;
   max-width: 580px;
