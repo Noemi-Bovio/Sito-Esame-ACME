@@ -25,7 +25,7 @@
 .logo{
   height:80px;
   width:150px;
-  margin-left:485px;
+  margin-left:500px;
   margin-top: -5px;
 }
 
@@ -40,7 +40,7 @@
 #boxtondo {
   border:3px solid white;
   min-width: 100px;
-  max-width: 550px; 
+  max-width: 600px; 
   margin: auto;
   text-align: center;
   background-color: #D4E4F7;
@@ -50,11 +50,11 @@
 
 .animazione{
  min-width: 100px;
- max-width: 550px;
+ max-width: 600px;
  text-align: center;
  border-radius: 10px;
  margin: auto;
-  padding:5px;
+ padding:5px;
  animation-name: example;
  animation-duration: 10s;
 }
@@ -69,7 +69,7 @@
 @media screen and (max-width: 690px) {
   #boxtondo{ 
   min-width: 100px;
-  max-width: 550px;
+  max-width: 600px;
   margin: auto;
   text-align: center;
   background-color: #D4E4F7;
@@ -88,7 +88,7 @@ h8 {color: black;
   font-size: 16px;
   font-family: Helvetica;
   text-align: center;
-  margin-bottom: -25px;
+  margin: auto;
   text-shadow: 0px 0px 10px white;}
 }
   
