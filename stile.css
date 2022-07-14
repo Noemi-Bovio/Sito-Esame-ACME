@@ -1,4 +1,4 @@
-.background { font-family: 'Tiro Devanagari Sanskrit', serif;
+background { font-family: 'Tiro Devanagari Sanskrit', serif;
   background-image: url("immagini/sfondo.jpg");
   margin: 0px;
   width: 100%;
@@ -18,10 +18,7 @@
   width: 100%;
   height: 75px;
   margin: auto;
-  height: auto;
-  padding: 5px 0px;
 }
-
 .bandiere {
   width: 45px;
   height: 30px;
@@ -31,28 +28,10 @@
 .logo{
   height: 80px;
   width: 150px;
-  float: right;
+  margin-left: -400px;
+  margin-right: -400px;
   margin-top: -5px;
 }
-
-}
-@media screen and (max-width: 600px) {
-  #headline {
-    text-align: center;
-    padding: 10px;
-  }
-
-@media screen and (max-width: 690px) 
-{
-  #boxtondo{ 
-  min-width: 100px;
-  max-width: 580px;
-  margin: auto;
-  text-align: center;
-  background-color: #D4E4F7;
-  border-radius: 10px;
-  padding:5px;
-  }
 
 #boxtondo{
   border:3px solid white;
