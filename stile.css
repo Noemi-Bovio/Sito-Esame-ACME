@@ -66,7 +66,7 @@
   100% {border:3px solid green;border-radius: 10px}
 
 @media screen and (max-width: 690px) {
-  #boxtondo
+  #boxtondo{
   min-width: 100px;
   max-width: 580px;
   margin: auto;
