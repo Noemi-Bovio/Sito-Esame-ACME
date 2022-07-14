@@ -10,6 +10,7 @@
   background-attachment: fixed;
   background-position: center;
   }
+
 #bandatop {
   border-bottom: 3px solid red; 
   background-color: white;
@@ -19,6 +20,7 @@
   height: 75px;
   margin: auto;
 }
+
 .bandiere {
   width: 45px;
   height: 30px;
@@ -32,24 +34,7 @@
   margin-top: -5px;
 }
 
-@media screen and (max-width: 480px) 
-@media screen and (max-width: 690px) 
-{
-  #bandatop{ 
-  min-width: 100px;
-  max-width: 480px;
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-  border-bottom: 3px solid red; 
-  background-color: white;
-  position: fixed;
-  opacity: 0.9;
-
-  }
-   }
-
-#boxtondo {
+#boxtondo{
   border:3px solid white;
   min-width: 100px;
   max-width: 600px; 
@@ -59,6 +44,7 @@
   border-radius: 10px; 
   padding:10px;
 }
+
 .animazione{
  min-width: 100px;
  max-width: 600px;
@@ -69,12 +55,14 @@
  animation-name: example;
  animation-duration: 10s;
 }
-@keyframes example {
+
+@keyframes example{
   0%   {border:3px solid red;border-radius: 10px}
   25%  {border:3px solid yellow;border-radius: 10px}
   50%  {border:3px solid blue;border-radius: 10px}
   100% {border:3px solid green;border-radius: 10px}
 }
+
 @media screen and (max-width: 690px) 
 {
   #boxtondo{ 
@@ -93,6 +81,7 @@
   margin-top: 10px; 
   text-shadow: 0px 0px 10px white;
   }
+  
 h8 {color: black;
   font-size: 16px;
   font-family: Helvetica;
@@ -130,10 +119,12 @@ h8 {color: black;
   width: 200px;
   padding: 15px
 }
+
 #perchiudere{
   font-size: 15px;
   margin-left: 185px;
 }
+
 #spazio1{
   padding-top: 40px;
   margin: auto;
