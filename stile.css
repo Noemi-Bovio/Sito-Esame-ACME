@@ -35,14 +35,6 @@
   margin-top: -5px;
 }
 
-}
-@media screen and (max-width: 690px) {
-  #bandatop {
-  padding: 10px;
-  width: 100%;
-  height: auto;
-  }
-
 @media screen and (max-width: 690px) 
 {
   #boxtondo{ 
