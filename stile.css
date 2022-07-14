@@ -11,14 +11,6 @@
   background-position: center;
   }
 
-@media screen and (max-width: 690px) 
-{
-  #bandatop{ 
-  text-align: center
-  padding:10px;
-  }
-  
-
 #bandatop {
   border-bottom: 3px solid red; 
   background-color: white;
