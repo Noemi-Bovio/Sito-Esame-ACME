@@ -8,8 +8,10 @@
   }
 
 @media screen and (max-height:1200px) 
-  .background{ max
- 
+  .background{ max-height:1200px; 
+    min-height:100px; 
+  }
+
 
 #bandatop {
   border-bottom: 3px solid red; 
