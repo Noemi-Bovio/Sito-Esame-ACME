@@ -54,7 +54,7 @@
  text-align: center;
  border-radius: 10px;
  margin: auto;
- padding:5px;
+ padding:6px;
  animation-name: example;
  animation-duration: 10s;
 }
@@ -76,14 +76,14 @@
   border-radius: 10px;
   }
   
-  h1 { color: black; 
+  h1 { color: white; 
   font-size:36px;
   text-align: center;
   margin-top: 10px; 
   text-shadow: 0px 0px 10px black;
   }
 
-h8 {color: black;
+h8 {color: white;
   font-size: 16px;
   font-family: Helvetica;
   text-align: center;
