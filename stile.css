@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 690px) 
 {
-  .background { 
+  .background-image{ 
   min-width: 100px;
   max-width: 580px;
   margin: auto;
