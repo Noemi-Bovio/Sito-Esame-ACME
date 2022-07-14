@@ -34,13 +34,6 @@
   float: right;
   margin-top: -5px;
 }
-@media screen and (max-width: 480px) 
-{
-.logo { 
-  max-width: 480px;
-  min-width: 100px;
-  margin: auto;
-  }
 
 #boxtondo {
   border:3px solid white;
