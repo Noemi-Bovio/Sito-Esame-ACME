@@ -14,13 +14,8 @@
 @media screen and (max-width: 690px) 
 {
   #bandatop{ 
-  min-width: 100px;
-  max-width: 580px;
-  margin: auto;
-  text-align: center;
-  background-color: #D4E4F7;
-  border-radius: 10px;
-  padding:5px;
+  text-align: center
+  padding:10px;
   }
   
 
