@@ -10,13 +10,14 @@
   background-attachment: fixed;
   background-position: center;
   }
-
 #bandatop {
   border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
   opacity: 0.9;
   width: 100%;
+  height: 75px;
+  margin: auto;
   height: auto;
   padding: 5px 0px;
 }
@@ -27,13 +28,19 @@
   float: left;
   margin: 20px -15px 0px 35px;
 }
-
 .logo{
   height: 80px;
   width: 150px;
   float: right;
   margin-top: -5px;
 }
+
+}
+@media screen and (max-width: 600px) {
+  #headline {
+    text-align: center;
+    padding: 10px;
+  }
 
 @media screen and (max-width: 690px) 
 {
@@ -57,7 +64,6 @@
   border-radius: 10px; 
   padding:10px;
 }
-
 .animazione{
  min-width: 100px;
  max-width: 600px;
@@ -68,14 +74,12 @@
  animation-name: example;
  animation-duration: 10s;
 }
-
 @keyframes example{
   0%   {border:3px solid red;border-radius: 10px}
   25%  {border:3px solid yellow;border-radius: 10px}
   50%  {border:3px solid blue;border-radius: 10px}
   100% {border:3px solid green;border-radius: 10px}
 }
-
 @media screen and (max-width: 690px) 
 {
   #boxtondo{ 
@@ -132,12 +136,10 @@ h8 {color: black;
   width: 200px;
   padding: 15px
 }
-
 #perchiudere{
   font-size: 15px;
   margin-left: 185px;
 }
-
 #spazio1{
   padding-top: 40px;
   margin: auto;
@@ -176,19 +178,6 @@ h5 {
    margin: 20px auto 0px auto;
    border-radius:10px;
 }
-
-@media screen and (max-width: 1240px) {
-  .box1{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    heigh: auto;
-    border-radius:70px 0px 70px 70px;
-    text-align:center;
-  }
 .box2{
    background-color: black;
    padding: 30px;
