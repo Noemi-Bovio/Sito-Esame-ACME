@@ -35,19 +35,18 @@
   margin-top: -5px;
 }
 
-@media screen and (max-width: 480px) 
+@media screen and (max-width: 690px) 
 {
   #bandatop{ 
   min-width: 100px;
-  max-width: 480px;
+  max-width: 600px;
   margin: auto;
   text-align: center;
   border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
   opacity: 0.9;
-  
-  }
+   }
 
 #boxtondo {
   border:3px solid white;
