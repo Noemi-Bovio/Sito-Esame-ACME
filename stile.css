@@ -38,12 +38,12 @@
 @media screen and (max-width: 690px) 
 {
   .logo{ 
-  min-width: 100px;
-  height:80px;
+  min-width: 50px;
   max-width: 150px;
   margin-left:400px;
   margin-top: -5px;
   }
+  
 #quadratino {border:2px solid red; 
   position:fixed; 
   top:18px; 
