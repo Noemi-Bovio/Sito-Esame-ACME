@@ -142,11 +142,25 @@ h5 {
   background-color: orange;
   border-radius: 10px; 
 }
+
 .tasto{
   display: inline-block;
   margin: 25px 50px 20px -15px;
   color: black;
 }
+
+@media screen and (max-width: 1200px) {
+  #box1{
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    min-width: 220px;
+    max-width: 1000px;
+    margin: 20px 5px 0px 5px;
+    heigh: auto;
+    border-radius:10px;
+    text-align:center;
+  }
 .box1{
    background-color: black;
    padding: 30px;
