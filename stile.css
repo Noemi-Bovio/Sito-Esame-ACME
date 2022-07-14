@@ -21,20 +21,6 @@
   margin: auto;
 }
 
-@media screen and (max-width: 480px) 
-{
-  #bandatop{ 
-  min-width: 100px;
-  max-width: 480px;
-  margin: auto;
-  text-align: center;
-  border-bottom: 3px solid red; 
-  background-color: white;
-  position: fixed;
-  opacity: 0.9;
-  
-  }
-
 .bandiere {
   width: 45px;
   height: 30px;
@@ -48,6 +34,20 @@
   float: left; 
   margin-top: -5px;
 }
+
+@media screen and (max-width: 480px) 
+{
+  #bandatop{ 
+  min-width: 100px;
+  max-width: 480px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 3px solid red; 
+  background-color: white;
+  position: fixed;
+  opacity: 0.9;
+  
+  }
 
 #boxtondo {
   border:3px solid white;
