@@ -62,15 +62,17 @@
   100% {border:3px solid green;border-radius: 10px}
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 200px) {
   #boxtondo{
     min-width: 100px;
-    max-width: 550px;
+    max-width: 400px;
+  background-color: #D4E4F7;
     margin: auto;
     text-align: center;
     margin-top: 80px;
-    border-radius: 150px;
+    border-radius: 10px;
     padding: 30px;
+    opacity: 0.9;  
   }
   
 #spazio{
