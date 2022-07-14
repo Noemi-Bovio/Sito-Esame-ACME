@@ -31,7 +31,8 @@
 .logo{
   height: 80px;
   width: 150px;
-  position: right;
+ float: left;
+  margin-right: -10px;
   margin-top: -5px;
 }
 
