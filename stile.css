@@ -63,15 +63,13 @@
 }
 
 @media screen and (max-width: 480px) {
-  #boxtondo{  
-    font-size: 19px;
-    line-height: 150%;
+  #boxtondo{ 
+    min-width: 5px;
+    max-width: 480px;
     background-color: #D4E4F7;
     margin: auto;
     text-align: center;
-    margin-top: 80px;
     border-radius: 10px;
-    padding: 30px;
     opacity: 0.9;  
   }
   
