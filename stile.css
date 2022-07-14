@@ -24,7 +24,7 @@
 .bandiere {
   width: 45px;
   height: 30px;
-  float: left;
+  float: none;
   margin: 20px -15px 0px 35px;
 }
 
