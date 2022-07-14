@@ -66,14 +66,13 @@
   100% {border:3px solid green;border-radius: 10px}
 
 @media screen and (max-width: 690px) {
-  #boxtondo{
+  #boxtondo
   min-width: 100px;
   max-width: 580px;
   margin: auto;
   text-align: center;
   background-color: #D4E4F7;
   border-radius: 10px;
-  padding:10px;
   }
 
 h1 { color: black; 
@@ -378,6 +377,3 @@ footer{
   right: 40px;
   text-align: center;
 }
- 
-
-
