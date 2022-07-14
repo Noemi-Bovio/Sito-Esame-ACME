@@ -1,5 +1,7 @@
 .background { font-family: 'Tiro Devanagari Sanskrit', serif;
   margin:0px;
+  min-width: 100px;
+  max-width: 1200px; 
   background-repeat;
   background-attachment: fixed;
   background-size: 100%;}
