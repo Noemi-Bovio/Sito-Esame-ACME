@@ -41,6 +41,7 @@
   border:3px solid white;
   min-width: 100px;
   max-width: 550px; 
+  heigt:160px;
   margin: auto;
   text-align: center;
   background-color: #D4E4F7;
@@ -50,8 +51,7 @@
 .animazione{
  min-width: 100px;
  max-width: 550px;
-   min-heigt: 50px;
-  max-height: 100px; 
+  heigt:160px;
  text-align: center;
  border-radius: 10px;
  margin: auto;
@@ -70,8 +70,6 @@
   #boxtondo{ 
   min-width: 100px;
   max-width: 550px;
-     min-heigt: 50px;
-  max-height: 100px; 
   margin: auto;
   text-align: center;
   background-color: #D4E4F7;
