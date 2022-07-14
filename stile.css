@@ -41,9 +41,8 @@
   border:3px solid white;
   min-width: 100px;
   max-width: 550px; 
-  height: 160px; 
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   background-color: #D4E4F7;
   border-radius: 10px;
@@ -53,12 +52,11 @@
 .animazione{
  min-width: 100px;
  max-width: 550px; 
- height: 160px; 
  text-align: center;
  font-size: 10px;
  border-radius: 10px;
  margin: auto;
- padding: 20px;
+ padding: 10px;
  animation-name: example;
  animation-duration: 10s;
 }
@@ -75,7 +73,7 @@
   min-width: 100px;
   max-width: 550px; 
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   font-size: 10px;
   background-color: #D4E4F7;
