@@ -134,9 +134,9 @@ h5 {
   font-family:Helvetica;
   text-align: center;
  }
-#boxarancio{
-  height: 220px;
-  width: 1000px;
+.box1{
+  min-width: 100px;
+  max-width: 1200px;
   margin: auto;
   text-align: center;
   background-color: orange;
@@ -150,13 +150,11 @@ h5 {
 }
 
 @media screen and (max-width: 690px) {
-  #boxarancio{
+  .box1{
     background-color: orange;
-    padding: 20px;
-    color: white;
     min-width: 100px;
     max-width: 1200px;
-    margin: 20px 5px 0px 5px;
+    margin: auto;
     heigh: auto;
     border-radius:10px;
     text-align:center;
