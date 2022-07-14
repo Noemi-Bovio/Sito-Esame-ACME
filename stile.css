@@ -8,7 +8,7 @@
   }
 
 @media screen and (max-height:1200px) 
-  .background{ max-height:1200px; 
+  .background-image:{ max-height:1200px; 
     min-height:100px; 
   }
 
