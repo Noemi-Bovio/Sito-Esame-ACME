@@ -67,7 +67,9 @@
   min-width: 100px;
   max-width: 550px; 
   margin: auto; 
+  padding: 30px;
   text-align: center;
+  font-size: 19px;
   background-color: #D4E4F7;
   border-radius: 10px;
   opacity: 0.9;  
