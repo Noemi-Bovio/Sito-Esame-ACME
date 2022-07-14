@@ -7,7 +7,7 @@
   background-position: center;
   }
 
-@media screen and (max-width: 690px) 
+@media screen and (max-width: 1200px) 
   .background{  max-width: 100%;}
  
 
