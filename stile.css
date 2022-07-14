@@ -66,8 +66,8 @@
   #boxtondo{ 
   min-width: 100px;
   max-width: 550px; 
-  margin-top:30px; 
-  padding: 100px;
+  margin:auto; 
+  padding: 10px;
   text-align: center;
   font-size: 15px;
   background-color: #D4E4F7;
