@@ -41,12 +41,11 @@ background { font-family: 'Tiro Devanagari Sanskrit', serif;
   #bandatop {
     border-bottom: 3px solid red; 
   background-color: white;
-  text-align:center;
   position: fixed;
   opacity: 0.9;
   width: 100%;
   max-height: 75%;
-  min-heght: 10%;
+  min-heght: 5%;
   margin: auto;
   }
   .bandiere {
@@ -63,7 +62,6 @@ background { font-family: 'Tiro Devanagari Sanskrit', serif;
   max-width: 140px;
   mix-width: 10px;
   margin:auto;
-  float: right;
   float:none;
   margin-top: -5px;
   padding:2px;
