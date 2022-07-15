@@ -194,7 +194,7 @@ h5{
     padding: 15px;
   }
 
-#box1{
+#box2{
   background-color: red;
   padding: 30px;
   color: white;
@@ -203,7 +203,8 @@ h5{
   max-width: 1200px;
   border-radius:10px;
 }
-#box2{
+  
+#box3{
    background-color: black;
    padding: 30px;
    color: white;
