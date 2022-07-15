@@ -20,7 +20,7 @@
   padding: 5px 0px;
 }
 .bandiere {
-  width: 45px;
+  width: 80px;
   height: 30px;
   float: left;
   margin: 20px -15px 0px 35px;
@@ -28,7 +28,7 @@
 
 #logo{
   float: right;
-  width: 50px;
+  width: 80px;
   height: 30px;
   margin-top: -5px;
   }
@@ -51,7 +51,7 @@
   }
   #logo{
   float: right;
-  width: 50;
+  width: 80;
   height: 30px;
   margin-top: -5px;
   }
