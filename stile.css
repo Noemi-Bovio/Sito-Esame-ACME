@@ -160,7 +160,7 @@ h3{
   text-align: center;
   font-family:Helvetica;
 }
-h5 { 
+h5{ 
   color: white;
   font-size:12px;
   font-family:Helvetica;
@@ -205,8 +205,15 @@ h5 {
   height: 80px;
   width: 70px;} 
   
+  #spazio{
+    padding-top: 220px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
+    hwight:auto;
+  
 .box1{
-  background-color: browen;
+  background-color: red;
   padding: 30px;
   color: white;
   margin: 20px 5px 0px 5px;
@@ -222,27 +229,6 @@ h5 {
    max-width: 1200px;
    margin: 20px auto 0px auto;
   border-radius:10px;
-}
-@media screen and (max-width: 1240px) {
-  .box1{  
-  background-color: browen;
-  padding: 30px;
-  color: white;
-  margin: 20px 5px 0px 5px;
-  min-width: 100px;
-  max-width: 1200px;
-  border-radius:10px;
-  }
-  .box2{
-     background-color: black;
-   padding: 30px;
-   color: white;
-   min-width: 100px;
-   max-width: 1200px;
-   margin: 20px auto 0px auto;
-  border-radius:10px;
-  }
-}
   
 @media screen and (max-width: 600px) {
   #spazio{
@@ -261,26 +247,23 @@ h5 {
     width: 80%;
     height: 200px;
   }
-  .box1{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    heigh: auto;
-    border-radius:70px 0px 70px 70px;
-    text-align:left;
-  }
+  .box1{ 
+  background-color: red;
+  padding: 30px;
+  color: white;
+  margin: 20px 5px 0px 5px;
+  min-width: 100px;
+  max-width: 1200px;
+  border-radius:10px;
+}
   .box2{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    border-radius:0px 70px 70px 70px;
-    text-align:left;
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 100px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
   }
 }
   
