@@ -272,6 +272,24 @@ h7{
    margin: auto;
   text-align: center;
  }
+  .box3{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 100px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
+  padding:20px;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  heigh: auto;
+  border-radius:70px 0px 70px 70px;
+}
 .dipartimenti {background-color: black;
    padding: 30px;
    color: white;
