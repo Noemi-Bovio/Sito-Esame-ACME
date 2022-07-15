@@ -30,8 +30,8 @@
   width: 150px;
   float: right;
   margin-top: -5px;
+  }
 }
-
 @media screen and (max-width: 600px) {
   #bandatop {
     text-align: center;
