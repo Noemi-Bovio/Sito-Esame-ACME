@@ -197,14 +197,6 @@ h5 {
     padding: 15px;
   }
   
-  #spazio{
-  padding-top: 180px;
-  margin: auto;
-  min-width: 300px;
-  max-width: 100%;
-  hwight:auto;
-}
-  
 .box1{
    background-color: black;
    padding: 30px;
@@ -264,7 +256,7 @@ h5 {
   }
 }
 @media screen and (max-width: 600px) {
-  #spazio{
+  #spazio1{
     padding-top: 220px;
     margin: auto;
     min-width: 300px;
