@@ -281,10 +281,10 @@ h6{
   font-family:Helvetica;
   margin-top: 10px;
  }
-.video {width: 50%; 
-  height: 35%;
-  margin:auto;
-  display: inline-block;
+.video {
+  border-radius:10px;
+  width: 560px;
+  height: 315px;
   }
 .immagine {width: 500px; 
   height: 250px;
