@@ -40,7 +40,7 @@
 
 @media screen and (max-width:600px) {
   #bandatop {
-    border-bottom: 3px solid red; 
+  border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
   opacity: 0.9;
@@ -206,22 +206,13 @@ h5 {
   width: 70px;} 
   
 .box1{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   min-width: 100px;
-   max-width: 1200px;
-   margin: 20px auto 0px auto;
-  border-radius:10px;
-  padding:20px;
-  background-color: black;
+  background-color: browen;
   padding: 30px;
   color: white;
+  margin: 20px 5px 0px 5px;
   min-width: 100px;
   max-width: 1200px;
-  margin: 20px auto 0px auto;
-  heigh: auto;
-  border-radius:70px 0px 70px 70px;
+  border-radius:10px;
 }
 .box2{
    background-color: black;
@@ -231,38 +222,28 @@ h5 {
    max-width: 1200px;
    margin: 20px auto 0px auto;
   border-radius:10px;
-  padding:20px;
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
-  border-radius:0px 70px 70px 70px;
 }
 @media screen and (max-width: 1240px) {
-  .box1{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    heigh: auto;
-    border-radius:70px 0px 70px 70px;
-    text-align:center;
+  .box1{  
+  background-color: browen;
+  padding: 30px;
+  color: white;
+  margin: 20px 5px 0px 5px;
+  min-width: 100px;
+  max-width: 1200px;
+  border-radius:10px;
   }
   .box2{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    border-radius:0px 70px 70px 70px;
-    text-align:center;
+     background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 100px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
   }
 }
+  
 @media screen and (max-width: 600px) {
   #spazio{
     padding-top: 220px;
