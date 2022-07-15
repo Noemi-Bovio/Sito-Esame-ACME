@@ -162,6 +162,14 @@ h5 {
 
 }
 .box1{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 100px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
+  padding:20px;
   background-color: black;
   padding: 30px;
   color: white;
@@ -171,7 +179,16 @@ h5 {
   heigh: auto;
   border-radius:70px 0px 70px 70px;
 }
+
 .box2{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 100px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
+  padding:20px;
   background-color: black;
   padding: 30px;
   color: white;
@@ -203,15 +220,6 @@ h5 {
     text-align:center;
   }
 
-}
-@media screen and (max-width: 600px) {
-  #spazio{
-    padding-top: 220px;
-    margin: auto;
-    min-width: 300px;
-    max-width: 100%;
-    hwight:auto;
-  }
 a:link{
   color:white;
   text-decoration: none;
