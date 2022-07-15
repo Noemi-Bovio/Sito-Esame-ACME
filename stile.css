@@ -32,7 +32,7 @@
   max-height: 80px;
   mix-width: 5px;
   max-width: 140px;
-  mix-width: 10px;
+  mix-width: 15px;
   float: right;
   margin-top: -5px;
   padding:2px;
@@ -41,7 +41,6 @@
   #bandatop {
     border-bottom: 3px solid red; 
   background-color: white;
-  text-align:center;
   position: fixed;
   opacity: 0.9;
   width: 100%;
@@ -55,16 +54,15 @@
   max-height: 30px;
   mix-height: 5px;
   float: left;
-  float: none;
-  margin: 10px -15px 0px 20px;
+  margin: 10px -15px 0px 15px;
   }
 #logo{
   max-height: 80px;
   mix-width: 5px;
   max-width: 140px;
-  mix-width: 10px;
+  mix-width: 15px;
   margin:auto;
-  float:none;
+  float: none;
   margin-top: -5px;
   padding:2px;
   }
