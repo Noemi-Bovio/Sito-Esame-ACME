@@ -123,12 +123,12 @@ h8{color: black;
 }
 
 #spazio{
-  padding-top: 180px;
+  padding-top: 50px;
   margin: auto;
-  min-width: 300px;
-  max-width: 100%;
-  hwight:auto;
-}
+  height: 80px;
+  width: 70px;}
+  
+@media screen and (max-width: 400px) 
   
 #bottoncinocookie {
   position: fixed;
@@ -160,14 +160,12 @@ h3{
   text-align: center;
   font-family:Helvetica;
 }
-h5{ 
+h5 { 
   color: white;
   font-size:12px;
   font-family:Helvetica;
   text-align: center;
  }
-
-
 #box1{
   min-width: 100px;
   max-width: 1200px;
@@ -182,7 +180,6 @@ h5{
   margin: 25px 50px 20px -15px;
   color: black;
 }
-
 @media screen and (max-width: 690px) {
   #box1{
     background-color: orange;
@@ -195,7 +192,16 @@ h5{
     padding: 15px;
   }
 
+}
 .box1{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 100px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
+  padding:20px;
   background-color: black;
   padding: 30px;
   color: white;
@@ -205,7 +211,16 @@ h5{
   heigh: auto;
   border-radius:70px 0px 70px 70px;
 }
+
 .box2{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 100px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
+  padding:20px;
   background-color: black;
   padding: 30px;
   color: white;
@@ -236,30 +251,57 @@ h5{
     border-radius:0px 70px 70px 70px;
     text-align:center;
   }
+
+a:link{
+  color:white;
+  text-decoration: none;
 }
-@media screen and (max-width: 600px) {
-  #spazio{
-    padding-top: 220px;
-    margin: auto;
-    min-width: 300px;
-    max-width: 100%;
-    hwight:auto;
+a:hover{
+  color: black !important;
+  text-decoration: none;
+}
+a:visited{
+  color:white;
+  text-decoration: none;
+}
+h4{
+  font-size:12px;
+  font-family:Helvetica;
+  letter-spacing: 5px; 
+  margin-top: 10px;
+ }
+h2{
+  border-left: 10px solid orange;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  font-size:35px;
+}
+.scritta1{
+  display: inline-block;
+  width: 550px;
+}
+h6{
+  font-size:14px;
+  font-family:Helvetica;
+  margin-top: 10px;
+ }
+.video {width: 50%; 
+  height: 35%;
+  margin:auto;
+  display: inline-block;
   }
-  #imglogomio{
-    margin:auto;
-    width: 200px;
-    height:auto;
+.immagine {width: 500px; 
+  height: 250px;
+  margin-left: 80px;
+  margin-top: 25px;
+  display: inline-block;
   }
-  #fotoclasse{
-    width: 80%;
-    height: 200px;
-    border-radius:0px 70px 70px 70px;
-  }
-  #videoyt{
-    border-radius:70px 0px 70px 70px;
-    width: 80%;
-    height: 200px;
-  }
+.scritta2{
+  display: inline-block; 
+  margin-left: 700px;
+  margin-top: -700px;
+}
+@media screen and (max-width: 1240px) {
   .box1{
     background-color: black;
     padding: 20px;
@@ -269,131 +311,147 @@ h5{
     margin: 20px 5px 0px 5px;
     heigh: auto;
     border-radius:70px 0px 70px 70px;
-    text-align:left;
+    text-align:center;
   }
-  .box2{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    border-radius:0px 70px 70px 70px;
-    text-align:left;
-  }
-}
-a:link{
-  color:white;
-  text-decoration: none;
-}
-a:hover{
-  color: black !important;
-  text-decoration: none;
-  text-shadow: 0px 0px 10px white;
-}
-a:visited{
-  color:white;
-  text-decoration: none;
-}
-.titoletto{
-  letter-spacing: 5px;
-}
-h2{
-  border-left: 10px solid hsl(0, 130%, 68%);
-  padding-left: 20px;
-  letter-spacing: 1px;
-}
-.elemento1{
-  display: inline-block;
-  width: 50%;
-}
-.elemento2 {
-  margin:auto;
-  display: inline-block;
-}
-h1{
-  color:white;
+  
+#boxtondo1 {border:4px solid white;
+  width: 600px;
+  height: 75px;
   text-align: center;
-  margin-top: 50px;
-  text-shadow: 0px 0px 10px black;
-}
-.dipartimenti{
-  background-color: black;
-  padding: 30px;
+  background-color: orange;
+  border-radius: 10px;
+  opacity: 0.9;  
+ }
+h7{
+  font-size:36px;
   color: white;
-  text-align:center;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto; 
-}
-h3{
+   margin: auto;
   text-align: center;
-}
-.scuole{
-  margin: 0px auto;
+ }
+.dipartimenti {background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1000px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
 }
 #pittura{
-  border-radius:70px 0px 70px 70px;
-  border: 3px solid #FF0000;
+  border-radius:10px;
+  border: 3px solid orange;
   text-align: center;
   padding: 20px;
-  height:auto;
-  width: 500px;
-  margin:auto 5px auto auto;
+  height: 150px;
+  width: 400px;
+  margin-left: 90px;
+  margin-top: 40px;
   display: inline-block;
 }
+u{ color: orange;}
 #grafica{
-  border-radius:0px 70px 70px 70px;
-  border: 3px solid #29ABE2;
+   border-radius:10px;
+  border: 3px solid orange;
   text-align: center;
   padding: 20px;
-  height:auto;
-  width: 500px;
-  margin:auto auto auto 5px; 
+  height: 150px;
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 40px;
   display: inline-block;
 }
 #scenografia{
-  border-radius:70px 0px 70px 70px;
-  border: 3px solid #F7931E;
+  border-radius:10px;
+  border: 3px solid orange;
   text-align: center;
-  padding: 10px;
-  height:auto;
-  width: 350px;
-  margin:auto 5px auto auto;
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
   display: inline-block;
 }
 #impresa{
-  border-radius:0px 0px 70px 70px;
-  border: 3px solid #FCEE21;
+  border-radius:10px;
+  border: 3px solid orange;
   text-align: center;
-  padding: 8px;
-  height:auto;
-  width: 350px;
-  margin:auto 5px;
+  padding: 20px;
+  height: 280px;
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 40px;
   display: inline-block;
 }
 #tecnologie{
-  border-radius:0px 70px 70px 70px;
-  border: 3px solid #FF00FF;
-  text-align: center; 
-  padding: 10px;
-  height:auto;
-  width: 350px;
-  margin:auto auto auto 5px;
+  border-radius:10px;
+  border: 3px solid orange;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
   display: inline-block;
 }
 #comunicazione{
-  border-radius:0px 0px 70px 70px;
-  border: 3px solid #AA6FFF;
+  border-radius:10px;
+  border: 3px solid orange;
   text-align: center;
-  padding: 10px;
-  height:auto;
+  padding: 20px;
+  height: 200px;
   width: 400px;
-  margin:auto;
+  margin-left: 380px;
+  margin-top: 40px;
+  display: inline-block;
 }
-@media screen and (max-width: 1213px) {
-  .elemento1{
-    display: block;
+#bottoncinocookie {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+#cookie{
+  color: white;
+  font-size:10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+#perchiudere{
+  font-size: 15px;
+  margin-left: 185px;
+}
+#freccina{
+  padding: 40px;
+}
+#map {
+  width: 1000px;
+  height: 250px;
+  margin-left:50px
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 5px;
+}
+#map {
+    width: 100%;
+    height: 200px;
+    margin: 40px auto 0px auto;
+  }
+  
+  .top {
+  color: white;
+  background-color: none;
+  position: fixed-right;
+  bottom: 20px;
+  right: 40px;
+  text-align: center;
+}
     margin:auto;
     width:100%;
   }
