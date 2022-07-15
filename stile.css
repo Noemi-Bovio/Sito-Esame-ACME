@@ -10,28 +10,47 @@
   background-attachment: fixed;
   background-position: center;
   }
-#bandatop{
+#bandatop {
   border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
   opacity: 0.9;
-  width: 100%; 
+  width: 100%;
   height: 75px;
-  padding: 5px 0px;
-
+  margin: auto;
+}
 .bandiere {
   width: 45px;
   height: 30px;
   float: left;
   margin: 20px -15px 0px 35px;
 }
-#logo{
+.logo{
+  height: 80px;
+  width: 150px;
   float: right;
-  width: 80px;
-  height: 45px;
+  margin-top: -5px;
+}
+
+@media screen and (max-width: 600px) {
+  #bandatop {
+    text-align: center;
+    padding: 10px;
+  }
+  .bandiere {
+  width: 45px;
+  height: 30px;
+  float: left;
+  margin: 20px -15px 0px 35px;
+  }
+.logo{
+  height: 80px;
+  width: 150px;
+  float: right;
   margin-top: -5px;
   }
 }
+
 #boxtondo{
   border:3px solid white;
   min-width: 100px;
@@ -272,7 +291,6 @@ h7{
    margin: auto;
   text-align: center;
  }
-
 .dipartimenti {background-color: black;
    padding: 30px;
    color: white;
