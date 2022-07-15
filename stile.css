@@ -163,7 +163,7 @@ h5 {
     padding: 15px;
   }
   
-  .box1{
+.box1{
    background-color: black;
    padding: 30px;
    color: white;
@@ -184,18 +184,7 @@ h5 {
   border-radius:10px;
   padding:20px;
 }
-  @media screen and (max-width: 1240px) {
-  .box2{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 100px;
-    max-width: 1200px;
-    margin: 20px auto 0px auto;
-    heigh: auto;
-    border-radius: 10px;
-    text-align:center;
-  }
+
 a:link{
   color:white;
   text-decoration: none;
