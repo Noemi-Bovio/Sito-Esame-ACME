@@ -54,7 +54,7 @@
   mix-width: 10px;
   max-height: 30px;
   mix-height: 5px;
-  float: left;
+  float: center;
   margin: 5px -15px 0px 15px;
   }
 #logo{
@@ -63,7 +63,7 @@
   max-width: 140px;
   mix-width: 15px;
   margin:auto;
-  float: right;
+  float:center;
   margin-top: -5px;
   padding:2px;
   }
