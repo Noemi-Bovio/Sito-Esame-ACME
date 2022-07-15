@@ -29,9 +29,9 @@
 }
 #logo{
   max-height: 80px;
-  mix-width: 10px;
+  mix-width: 5px;
   max-width: 140px;
-  mix-width: 25px;
+  mix-width: 15px;
   float: right;
   margin-top: -5px;
 }
@@ -55,9 +55,9 @@
   }
 #logo{
   max-height: 80px;
-  mix-width: 10px;
+  mix-width: 5px;
   max-width: 140px;
-  mix-width: 25px;
+  mix-width: 15px;
   float: right;
   margin-top: -5px;
   }
