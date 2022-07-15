@@ -178,18 +178,6 @@ h5 {
    margin: 20px auto 0px auto;
   border-radius:10px;
 }
-  @media screen and (max-width: 1240px) {
-  .box1{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    heigh: auto;
-    border-radius:70px 0px 70px 70px;
-    text-align:center;
-  }
 a:link{
   color:white;
   text-decoration: none;
