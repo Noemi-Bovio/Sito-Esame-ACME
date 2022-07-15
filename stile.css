@@ -160,7 +160,8 @@ h5 {
     padding: 15px;
   }
 
-  .box1{
+}
+.box1{
    background-color: black;
    padding: 30px;
    color: white;
@@ -169,6 +170,14 @@ h5 {
    margin: 20px auto 0px auto;
   border-radius:10px;
   padding:20px;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  heigh: auto;
+  border-radius:70px 0px 70px 70px;
 }
 
 .box2{
@@ -180,8 +189,37 @@ h5 {
    margin: 20px auto 0px auto;
   border-radius:10px;
   padding:20px;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  border-radius:0px 70px 70px 70px;
 }
-  
+@media screen and (max-width: 1240px) {
+  .box1{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 20px 5px 0px 5px;
+    heigh: auto;
+    border-radius:70px 0px 70px 70px;
+    text-align:center;
+  }
+  .box2{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 20px 5px 0px 5px;
+    border-radius:0px 70px 70px 70px;
+    text-align:center;
+  }
+
 a:link{
   color:white;
   text-decoration: none;
@@ -231,7 +269,19 @@ h6{
   margin-left: 700px;
   margin-top: -700px;
 }
-
+@media screen and (max-width: 1240px) {
+  .box1{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 20px 5px 0px 5px;
+    heigh: auto;
+    border-radius:70px 0px 70px 70px;
+    text-align:center;
+  }
+  
 #boxtondo1 {border:4px solid white;
   width: 600px;
   height: 75px;
