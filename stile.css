@@ -22,9 +22,9 @@
 }
 .bandiere {
   max-width: 45px;
-  mix-width: 15px;
+  mix-width: 10px;
   max-height: 30px;
-  mix-height: 10px;
+  mix-height: 5px;
   float: left;
   margin: 20px -15px 0px 30px;
 }
@@ -51,9 +51,9 @@
   }
   .bandiere {
   max-width: 45px;
-  mix-width: 15px;
+  mix-width: 10px;
   max-height: 30px;
-  mix-height: 10px;
+  mix-height: 5px;
   float: left;
   margin: 10px -15px 0px 10px;
   }
