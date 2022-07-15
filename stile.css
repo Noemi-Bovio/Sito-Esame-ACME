@@ -129,7 +129,8 @@ h3{
   text-align: center;
   font-family:Helvetica;
 }
-h5 {
+h5 { 
+  color: white;
   font-size:12px;
   font-family:Helvetica;
   text-align: center;
@@ -141,7 +142,7 @@ h5 {
   text-align: center;
   background-color: orange;
   border-radius: 10px; 
-  padding: 10px;
+  padding: 15px;
 }
 
 .tasto{
@@ -159,7 +160,7 @@ h5 {
     heigh: auto;
     border-radius:10px;
     text-align:center;
-    padding: 10px;
+    padding: 15px;
   }
 .box1{
    background-color: black;
@@ -178,17 +179,18 @@ h5 {
    max-width: 1200px;
    margin: 20px auto 0px auto;
   border-radius:10px;
+  padding:20px;
 }
   @media screen and (max-width: 1240px) {
-  .box1{
+  .box2{
     background-color: black;
     padding: 20px;
     color: white;
-    min-width: 300px;
+    min-width: 100px;
     max-width: 1200px;
-    margin: 20px 5px 0px 5px;
+    margin: 20px auto 0px auto;
     heigh: auto;
-    border-radius:70px 0px 70px 70px;
+    border-radius: 10px;
     text-align:center;
   }
 a:link{
@@ -255,7 +257,7 @@ h6{
   }
   
 #boxtondo1 {border:4px solid white;
-  width: 1200px;
+  width: 600px;
   height: 75px;
   text-align: center;
   background-color: orange;
