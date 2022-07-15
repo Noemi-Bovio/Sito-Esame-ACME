@@ -37,7 +37,7 @@
   padding:3px;
 }
 
-@media screen and (max-width: 690px) {
+@media all and (max-width: 690px) {
   #bandatop {
     border-bottom: 3px solid red; 
   background-color: white;
@@ -61,7 +61,7 @@
   mix-width: 25px;
   float: right;
   margin-top: -5px;
-  padding:3px;
+  padding:2px;
   }
 }
 
