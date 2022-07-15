@@ -37,36 +37,31 @@
   margin-top: -5px;
   padding:2px;
 }
-
 @media screen and (max-width:600px) {
   #bandatop {
-  border-bottom: 3px solid red; 
+    border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
   opacity: 0.9;
   width: 100%;
   max-height: 75%;
-  min-heght: 5%;
+  min-heght: 10%;
   margin: auto;
-
   }
   .bandiere {
   max-width: 45px;
   mix-width: 10px;
-  max-height: 30px;
-  mix-height: 5px;
-  float: left;
-  margin: 10px -15px 0px 20px;
-  }
-#logo{
-  max-height: 80px;
-  mix-width: 5px;
-  max-width: 140px;
-  mix-width: 10px;
-  margin:auto;
-  float:none;
-  margin-top: -5px;
-  padding:2px;
+.background { font-family: 'Tiro Devanagari Sanskrit', serif;
+  background-image: url("immagini/sfondo.jpg");
+  margin: 0px;
+  width: 100%;
+  background-size: 100%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   }
 }
 #boxtondo{
