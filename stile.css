@@ -24,10 +24,15 @@
   float: left;
   margin: 20px -15px 0px 35px;
 }
+#intestazione{
+  float: right;
+  text-align: center;
+  margin: 0px 50px 0px 0px;
+}
+  
 .logo{
   height: 80px;
-  width: 150px;
-  float: right;
+  width: auto;
   margin-top: -5px;
   }
 }
@@ -41,6 +46,12 @@
   height: 30px;
   float: left;
   margin: 20px -15px 0px 35px;
+  }
+    }
+  #intestazione{
+    text-align: center;
+    margin:auto;
+    float:none;
   }
   .logo{
   height: 80px;
