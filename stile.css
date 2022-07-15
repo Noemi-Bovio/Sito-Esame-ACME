@@ -119,13 +119,6 @@ h8 {color: black;
   margin-top: 10px; 
   text-shadow: 0px 0px 10px white;}
 }
-  
-#spazio{
-  padding-top: 150px;
-  margin: auto;
-  min-width: 1001px;
-  max-width: 1200px;
-}
 #spazio{
   padding-top: 50px;
   margin: auto;
@@ -170,6 +163,13 @@ h5 {
   font-family:Helvetica;
   text-align: center;
  }
+#spazio2{
+  padding-top: 180px;
+  margin: auto;
+  min-width: 300px;
+  max-width: 100%;
+  hwight:auto;
+}
 
 #box1{
   min-width: 100px;
@@ -196,13 +196,7 @@ h5 {
     text-align:center;
     padding: 15px;
   }
-#spazio2{
-  padding-top: 180px;
-  margin: auto;
-  min-width: 300px;
-  max-width: 100%;
-  hwight:auto;
-}
+
 .box1{
   background-color: black;
   padding: 30px;
