@@ -273,12 +273,12 @@ h6{
   font-family:Helvetica;
   margin-top: 10px;
  }
-.video {
+#video {
    border-radius:10px;
    width: 80%;
    height: 200px;
   }
-.immagine {
+#immagine {
   width: 80%;
     height: 200px;
     border-radius:10px;
@@ -303,12 +303,12 @@ h7{
     max-width: 100%;
     hwight:auto;
     
-    .immagine{
+    #immagine{
     width: 80%;
     height: 200px;
     border-radius:10px;
   }
-  .video{
+  #video{
     border-radius:10px;
     width: 80%;
     height: 200px;
