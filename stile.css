@@ -10,14 +10,13 @@
   background-attachment: fixed;
   background-position: center;
   }
-#bandatop {
-  border-bottom: 3px solid red; 
-  background-color: white;
+#headline{
+  box-shadow: 0px 5px 15px black;
   position: fixed;
-  opacity: 0.9;
+  background-color: black;
   width: 100%;
-  height: 75px;
-  margin: auto;
+  height: auto;
+  padding: 5px 0px;
 }
 .bandiere {
   width: 45px;
@@ -33,7 +32,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  #bandatop {
+  #headline {
     text-align: center;
     padding: 10px;
   }
@@ -43,7 +42,7 @@
   float: left;
   margin: 20px -15px 0px 35px;
   }
-.logo{
+  .logo{
   height: 80px;
   width: 150px;
   float: right;
