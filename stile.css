@@ -33,7 +33,7 @@
   mix-width: 5px;
   max-width: 140px;
   mix-width: 15px;
-  float: right;
+  float: none;
   margin-top: -5px;
   padding:2px;
 }
