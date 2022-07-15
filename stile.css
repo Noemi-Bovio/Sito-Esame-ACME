@@ -34,10 +34,10 @@
   mix-width: 20px;
   float: right;
   margin-top: -5px;
-  padding:3px;
+  padding:2px;
 }
 
-@media all and (max-width: 690px) {
+@media screen and (max-width: 690px) {
   #bandatop {
     border-bottom: 3px solid red; 
   background-color: white;
