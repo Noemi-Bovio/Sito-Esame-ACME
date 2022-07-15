@@ -240,7 +240,6 @@ h5 {
     text-align:center;
   }
 
-}
 @media screen and (max-width: 600px) {
   #spazio2{
     padding-top: 220px;
@@ -248,7 +247,39 @@ h5 {
     min-width: 300px;
     max-width: 100%;
     hwight:auto;
+    
+    .immagine{
+    width: 80%;
+    height: 200px;
+    border-radius:10px;
   }
+  .video{
+    border-radius:10px;
+    width: 80%;
+    height: 200px;
+  }
+    .box1{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 20px 5px 0px 5px;
+    heigh: auto;
+    border-radius:70px 0px 70px 70px;
+    text-align:center;
+  }
+  .box2{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 20px 5px 0px 5px;
+    border-radius:0px 70px 70px 70px;
+    text-align:center;
+  }
+ }
 a:link{
   color:white;
   text-decoration: none;
@@ -283,42 +314,21 @@ h6{
   margin-top: 10px;
  }
 .video {
-  border-radius:10px;
-  width: 560px;
-  height: 315px;
+   border-radius:10px;
+   width: 80%;
+   height: 200px;
   }
-.immagine {width: 500px; 
-  height: 250px;
-  margin-left: 80px;
-  margin-top: 25px;
-  display: inline-block;
+.immagine {
+  width: 80%;
+    height: 200px;
+    border-radius:10px;
   }
 .scritta2{
   display: inline-block; 
   margin-left: 700px;
   margin-top: -700px;
 }
-@media screen and (max-width: 1240px) {
-  .box1{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    heigh: auto;
-    border-radius:70px 0px 70px 70px;
-    text-align:center;
-  }
-  
-#boxtondo1 {border:4px solid white;
-  width: 600px;
-  height: 75px;
-  text-align: center;
-  background-color: orange;
-  border-radius: 10px;
-  opacity: 0.9;  
- }
+
 h7{
   font-size:36px;
   color: white;
