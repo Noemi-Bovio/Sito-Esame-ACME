@@ -121,18 +121,14 @@ h8{color: black;
   margin-top: 10px; 
   text-shadow: 0px 0px 10px white;}
 }
-  
+
 #spazio{
-  padding-top: 150px;
+  padding-top: 180px;
   margin: auto;
-  min-width: 1001px;
-  max-width: 1200px;
+  min-width: 300px;
+  max-width: 100%;
+  hwight:auto;
 }
-#spazio{
-  padding-top: 50px;
-  margin: auto;
-  height: 80px;
-  width: 70px;} 
   
 #bottoncinocookie {
   position: fixed;
@@ -256,24 +252,18 @@ h5 {
   }
 }
 @media screen and (max-width: 600px) {
-  #spazio1{
+  #spazio{
     padding-top: 220px;
     margin: auto;
     min-width: 300px;
     max-width: 100%;
     hwight:auto;
-  }
-  #imglogomio{
-    margin:auto;
-    width: 200px;
-    height:auto;
-  }
-  #fotoclasse{
+  #immagine{
     width: 80%;
     height: 200px;
     border-radius:0px 70px 70px 70px;
   }
-  #videoyt{
+  #video{
     border-radius:70px 0px 70px 70px;
     width: 80%;
     height: 200px;
@@ -325,7 +315,7 @@ h2{
   letter-spacing: 1px;
   font-size:35px;
 }
-.scritta1{
+.elemento1{
   display: inline-block;
   width: 550px;
 }
@@ -345,23 +335,11 @@ h6{
   margin-top: 25px;
   display: inline-block;
   }
-.scritta2{
+.elemento2{
   display: inline-block; 
   margin-left: 700px;
   margin-top: -700px;
 }
-@media screen and (max-width: 1240px) {
-  .box1{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    heigh: auto;
-    border-radius:70px 0px 70px 70px;
-    text-align:center;
-  }
   
 #boxtondo1 {border:4px solid white;
   width: 600px;
