@@ -35,7 +35,7 @@
 @media screen and (max-width: 690px) {
   #bandatop{
   min-width: 100px;
-  max-width: 1240px; 
+  max-width: 690px; 
   border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
