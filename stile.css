@@ -25,7 +25,7 @@
   max-height: 30px;
   mix-height: 10px;
   float: left;
-  margin: 20px -15px 0px 25px;
+  margin: 20px -15px 0px 30px;
 }
 #logo{
   max-height: 80px;
@@ -52,14 +52,14 @@
   max-height: 30px;
   mix-height: 10px;
   float: left;
-  margin: 20px -15px 0px 25px;
+  margin: 20px -15px 0px 30px;
   }
 #logo{
   max-height: 80px;
   mix-width: 5px;
   max-width: 140px;
   mix-width: 15px;
-  float: right;
+  margin:auto;
   margin-top: -5px;
   }
 }
