@@ -132,9 +132,7 @@ h8{color: black;
   padding-top: 50px;
   margin: auto;
   height: 80px;
-  width: 70px;}
-  
-@media screen and (max-width: 400px) 
+  width: 70px;} 
   
 #bottoncinocookie {
   position: fixed;
@@ -198,6 +196,15 @@ h5 {
     text-align:center;
     padding: 15px;
   }
+  
+  #spazio{
+  padding-top: 180px;
+  margin: auto;
+  min-width: 300px;
+  max-width: 100%;
+  hwight:auto;
+}
+  
 .box1{
    background-color: black;
    padding: 30px;
