@@ -194,7 +194,7 @@ h5{
     padding: 15px;
   }
 
-.box1{
+#box1{
   background-color: red;
   padding: 30px;
   color: white;
@@ -203,7 +203,7 @@ h5{
   max-width: 1200px;
   border-radius:10px;
 }
-.box2{
+#box2{
    background-color: black;
    padding: 30px;
    color: white;
@@ -268,7 +268,8 @@ h7{
    margin: auto;
   text-align: center;
  }
-.dipartimenti {background-color: black;
+
+ .dipartimenti {background-color: black;
    padding: 30px;
    color: white;
    min-width: 1000px;
