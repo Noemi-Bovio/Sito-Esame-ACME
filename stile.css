@@ -271,7 +271,7 @@ h7{
   text-align: center;
  }
 
-#dipartimenti {background-color: black;
+.dipartimenti {background-color: black;
    padding: 30px;
    color: white;
    min-width: 1000px;
