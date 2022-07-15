@@ -15,8 +15,7 @@
   background-color: white;
   position: fixed;
   opacity: 0.9;
-  min-width: 100px;
-  max-width: 1240px; 
+  width: 100%; 
   padding: 5px 0px;
 
 .bandiere {
