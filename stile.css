@@ -37,7 +37,7 @@
   margin-top: -5px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width:320px) {
   #headline {
     text-align: center;
     padding: 10px;
@@ -54,7 +54,7 @@
   text-align: center;
   margin: 0px 50px 0px 0px;
   }
-  .logo{
+  #logo{
   height: 80px;
   width: auto;
   margin-top: -5px;
