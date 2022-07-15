@@ -134,7 +134,7 @@ h5 {
   font-family:Helvetica;
   text-align: center;
  }
-.box1{
+#box1{
   min-width: 100px;
   max-width: 1200px;
   margin: auto;
@@ -151,7 +151,7 @@ h5 {
 }
 
 @media screen and (max-width: 690px) {
-  .box1{
+  #box1{
     background-color: orange;
     min-width: 100px;
     max-width: 1200px;
@@ -161,7 +161,7 @@ h5 {
     text-align:center;
     padding: 10px;
   }
-#box1{
+.box1{
    background-color: black;
    padding: 30px;
    color: white;
@@ -180,7 +180,7 @@ h5 {
   border-radius:10px;
 }
   @media screen and (max-width: 1240px) {
-  #box1{
+  .box1{
     background-color: black;
     padding: 20px;
     color: white;
