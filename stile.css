@@ -47,15 +47,16 @@
   opacity: 0.9;
   width: 100%;
   max-height: 75%;
-  min-heght: 10%;
+  min-heght: 5%;
   margin: auto;
+  padding:10px;
   }
   .bandiere {
   max-width: 45px;
   mix-width: 10px;
   max-height: 30px;
   mix-height: 5px;
-  float: none;
+  float: left;
   margin: 10px -15px 0px 20px;
   }
 #logo{
@@ -107,14 +108,14 @@
   padding:5px;
   }
   
-  h1 { color: black; 
+  h1{ color: black; 
   font-size:36px;
   text-align: center;
   margin-top: 10px; 
   text-shadow: 0px 0px 10px white;
   }
   
-h8 {color: black;
+h8{color: black;
   font-size: 16px;
   font-family: Helvetica;
   text-align: center;
@@ -233,6 +234,19 @@ h5 {
   margin: 20px auto 0px auto;
   border-radius:0px 70px 70px 70px;
 }
+@media screen and (max-width: 1240px) {
+  .box1{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 20px 5px 0px 5px;
+    heigh: auto;
+    border-radius:70px 0px 70px 70px;
+    text-align:center;
+  }
+  
 a:link{
   color:white;
   text-decoration: none;
