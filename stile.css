@@ -204,14 +204,7 @@ h5{
   margin: auto;
   height: 80px;
   width: 70px;} 
-  
-  #spazio{
-    padding-top: 220px;
-    margin: auto;
-    min-width: 300px;
-    max-width: 100%;
-    hwight:auto;
-  
+
 .box1{
   background-color: red;
   padding: 30px;
@@ -229,43 +222,6 @@ h5{
    max-width: 1200px;
    margin: 20px auto 0px auto;
   border-radius:10px;
-  
-@media screen and (max-width: 600px) {
-  #spazio{
-    padding-top: 220px;
-    margin: auto;
-    min-width: 300px;
-    max-width: 100%;
-    hwight:auto;
-  #immagine{
-    width: 80%;
-    height: 200px;
-    border-radius:0px 70px 70px 70px;
-  }
-  #video{
-    border-radius:70px 0px 70px 70px;
-    width: 80%;
-    height: 200px;
-  }
-  .box1{ 
-  background-color: red;
-  padding: 30px;
-  color: white;
-  margin: 20px 5px 0px 5px;
-  min-width: 100px;
-  max-width: 1200px;
-  border-radius:10px;
-}
-  .box2{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   min-width: 100px;
-   max-width: 1200px;
-   margin: 20px auto 0px auto;
-  border-radius:10px;
-  }
-}
   
 a:link{
   color:white;
