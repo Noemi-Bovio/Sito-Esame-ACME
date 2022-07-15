@@ -41,16 +41,13 @@
   #bandatop {
     border-bottom: 3px solid red; 
   background-color: white;
-  text-align:center;
   position: fixed;
   opacity: 0.9;
   width: 100%;
   max-height: 75%;
   min-heght: 5%;
   margin: auto;
-  padding:10px;
-
-  }
+ }
   .bandiere {
   max-width: 45px;
   mix-width: 10px;
