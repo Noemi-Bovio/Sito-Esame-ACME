@@ -34,6 +34,7 @@
   mix-width: 15px;
   float: right;
   margin-top: -5px;
+  padding:5px;
 }
 
 @media screen and (max-width:600px) {
