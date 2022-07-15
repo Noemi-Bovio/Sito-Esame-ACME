@@ -11,12 +11,13 @@
   background-position: center;
   }
 #headline{
-  box-shadow: 0px 5px 15px black;
+  border-bottom: 3px solid red; 
+  background-color: white;
   position: fixed;
-  background-color: black;
+  opacity: 0.9;
   width: 100%;
-  height: auto;
-  padding: 5px 0px;
+  height: 75px;
+  margin: auto;
 }
 .bandiere {
   width: 45px;
@@ -28,6 +29,7 @@
   float: right;
   text-align: center;
   margin: 0px 50px 0px 0px;
+  margin-top: -5px;
 }
   
 .logo{
@@ -49,14 +51,14 @@
   }
     }
   #intestazione{
-    text-align: center;
-    margin:auto;
-    float:none;
+  float: right;
+  text-align: center;
+  margin: 0px 50px 0px 0px;
+  margin-top: -5px;
   }
   .logo{
   height: 80px;
-  width: 150px;
-  float: right;
+  width: auto;
   margin-top: -5px;
   }
 }
