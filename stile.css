@@ -42,6 +42,7 @@
   #bandatop {
     border-bottom: 3px solid red; 
   background-color: white;
+  text-align:center;
   position: fixed;
   opacity: 0.9;
   width: 100%;
@@ -63,7 +64,7 @@
   max-width: 140px;
   mix-width: 10px;
   margin:auto;
-  float: right;
+  float:none;
   margin-top: -5px;
   padding:2px;
   }
