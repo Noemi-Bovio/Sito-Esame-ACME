@@ -128,20 +128,19 @@ h3{
   text-align: center;
   font-family:Helvetica;
 }
-h5 { 
-  color: white;
+h5 {
   font-size:12px;
   font-family:Helvetica;
   text-align: center;
  }
-#box1{
+.box1{
   min-width: 100px;
   max-width: 1200px;
   margin: auto;
   text-align: center;
   background-color: orange;
   border-radius: 10px; 
-  padding: 15px;
+  padding: 10px;
 }
 .tasto{
   display: inline-block;
@@ -149,7 +148,7 @@ h5 {
   color: black;
 }
 @media screen and (max-width: 690px) {
-  #box1{
+  .box1{
     background-color: orange;
     min-width: 100px;
     max-width: 1200px;
@@ -157,29 +156,18 @@ h5 {
     heigh: auto;
     border-radius:10px;
     text-align:center;
-    padding: 15px;
+    padding: 30px;
+    padding: 10px;
   }
-
-}
-.box1{
+#box1{
    background-color: black;
    padding: 30px;
    color: white;
    min-width: 100px;
    max-width: 1200px;
    margin: 20px auto 0px auto;
-  border-radius:10px;
-  padding:20px;
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
-  heigh: auto;
-  border-radius:70px 0px 70px 70px;
+   border-radius:10px;
 }
-
 .box2{
    background-color: black;
    padding: 30px;
@@ -188,17 +176,10 @@ h5 {
    max-width: 1200px;
    margin: 20px auto 0px auto;
   border-radius:10px;
-  padding:20px;
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
-  border-radius:0px 70px 70px 70px;
 }
-@media screen and (max-width: 1240px) {
+  @media screen and (max-width: 1240px) {
   .box1{
+  #box1{
     background-color: black;
     padding: 20px;
     color: white;
@@ -209,17 +190,6 @@ h5 {
     border-radius:70px 0px 70px 70px;
     text-align:center;
   }
-  .box2{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    border-radius:0px 70px 70px 70px;
-    text-align:center;
-  }
-
 a:link{
   color:white;
   text-decoration: none;
@@ -244,7 +214,7 @@ h2{
   letter-spacing: 1px;
   font-size:35px;
 }
-.elemento1{
+.scritta1{
   display: inline-block;
   width: 550px;
 }
@@ -258,18 +228,19 @@ h6{
   margin:auto;
   display: inline-block;
   }
-.colori {width: 500px; 
+.immagine {width: 500px; 
   height: 250px;
   margin-left: 80px;
   margin-top: 25px;
   display: inline-block;
   }
-.elemento2{
+.scritta2{
   display: inline-block; 
   margin-left: 700px;
   margin-top: -700px;
 }
- .box1{
+@media screen and (max-width: 1240px) {
+  .box1{
     background-color: black;
     padding: 20px;
     color: white;
@@ -278,18 +249,17 @@ h6{
     margin: 20px 5px 0px 5px;
     heigh: auto;
     border-radius:70px 0px 70px 70px;
-    text-align:left;
+    text-align:center;
   }
-  .box2{
-    background-color: black;
-    padding: 20px;
-    color: white;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px 5px 0px 5px;
-    border-radius:0px 70px 70px 70px;
-    text-align:left;
-  }
+  
+#boxtondo1 {border:4px solid white;
+  width: 1200px;
+  height: 75px;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px;
+  opacity: 0.9;  
+ }
 h7{
   font-size:36px;
   color: white;
