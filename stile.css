@@ -33,7 +33,7 @@
   margin-top: -5px;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 690px) {
   #bandatop{
   border-bottom: 3px solid red; 
   background-color: white;
@@ -51,7 +51,7 @@
   }
   #logo{
   float: right;
-  width: 80;
+  width: 55;
   height: 30px;
   margin-top: -5px;
   }
