@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-position: center;
   }
-#headline{
+#bandatop{
   border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
@@ -25,22 +25,18 @@
   float: left;
   margin: 20px -15px 0px 35px;
 }
-#intestazione{
-  float: right;
-  text-align: center;
-  margin: 0px 50px 0px 0px;
-}
-  
-.logo{
+
+#logo{
   height: 80px;
   width: auto;
   margin-top: -5px;
+  padding:3px;
   }
 }
 @media screen and (max-width:320px) {
-  #headline {
+  #bandatop{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
   }
   .bandiere {
   width: 45px;
@@ -48,16 +44,11 @@
   float: left;
   margin: 20px -15px 0px 35px;
   }
-    }
-  #intestazione{
-  float: right;
-  text-align: center;
-  margin: 0px 50px 0px 0px;
-  }
   #logo{
   height: 80px;
   width: auto;
   margin-top: -5px;
+  padding:3px;
   }
 }
 
