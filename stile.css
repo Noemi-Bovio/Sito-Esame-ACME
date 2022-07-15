@@ -32,20 +32,24 @@
   margin-top: -5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 690px) {
   #bandatop {
     text-align: center;
     padding: 10px;
   }
   .bandiere {
   max-width: 45px;
+  mix-width: 15px;
   max-height: 30px;
+  mix-height: 10px;
   float: left;
   margin: 20px -15px 0px 35px;
   }
 #logo{
   max-height: 80px;
+  mix-width: 15px;
   max-width: 140px;
+  mix-width: 25px;
   float: none;
   margin-top: -5px;
   }
