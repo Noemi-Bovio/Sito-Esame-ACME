@@ -46,7 +46,7 @@
 #logo{
   max-height: 80px;
   max-width: 140px;
-  float: right;
+  float: none;
   margin-top: -5px;
   }
 }
