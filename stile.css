@@ -170,6 +170,7 @@ h5 {
   font-family:Helvetica;
   text-align: center;
  }
+
 #box1{
   min-width: 100px;
   max-width: 1200px;
@@ -195,7 +196,12 @@ h5 {
     text-align:center;
     padding: 15px;
   }
-
+#spazio2{
+  padding-top: 180px;
+  margin: auto;
+  min-width: 300px;
+  max-width: 100%;
+  hwight:auto;
 }
 .box1{
   background-color: black;
