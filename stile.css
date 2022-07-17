@@ -179,6 +179,15 @@ h1{
   font-size: 15px;
   margin-left: 185px;
 }
+#box1{
+  min-width: 100px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px; 
+  padding: 15px;
+}
 h3{
   color: white;
   text-align: center;
@@ -190,15 +199,6 @@ h5{
   font-family:Helvetica;
   text-align: center;
  }
-#box1{
-  min-width: 100px;
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
-  background-color: orange;
-  border-radius: 10px; 
-  padding: 15px;
-}
 .tasto{
   display: inline-block;
   margin: 25px 40px 20px -15px;
@@ -207,7 +207,7 @@ h5{
 .tasto i{
     font-size:60px;
   }
-.tasto h3{
+.tasto h3{ 
     font-size: 36px;
   }
 @media screen and (max-width: 690px) {
@@ -242,6 +242,18 @@ h5{
 .tasto h3{
     font-size: 10px;
   }
+a:link{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color: black !important;
+  text-decoration: none;
+}
+a:visited{
+  color:white;
+  text-decoration: none;
+}
  }
 .box1{
   background-color: black;
