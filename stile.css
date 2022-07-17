@@ -66,8 +66,12 @@
   margin-top: -5px;
   padding:2px;
   }
-}
-#boxtondo{
+#spazio{
+  padding-top: 50px;
+  margin: auto;
+  height: 80px;
+  width: 70px;}
+ #boxtondo{
   border:3px solid white;
   min-width: 100px;
   max-width: 600px; 
