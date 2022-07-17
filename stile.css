@@ -10,7 +10,22 @@
   background-attachment: fixed;
   background-position: center;
   }
-#bandatop {
+h1{ 
+  color: black; 
+  font-size:36px;
+  text-align: center;
+  margin-top: 10px; 
+  text-shadow: 0px 0px 10px white;
+  }
+h8{
+  color: black;
+  font-size: 16px;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 10px; 
+  text-shadow: 0px 0px 10px white;}
+}
+#bandatop{
   border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
@@ -20,7 +35,7 @@
   min-heght: 5%;
   margin: auto;
 }
-.bandiere {
+.bandiere{
   max-width: 45px;
   mix-width: 10px;
   max-height: 30px;
@@ -38,7 +53,7 @@
   padding:2px;
 }
 @media screen and (max-width:600px) {
-  #bandatop {
+  #bandatop{
     border-bottom: 3px solid red; 
   background-color: white;
   position: fixed;
@@ -48,7 +63,7 @@
   min-heght: 5%;
   margin: auto;
  }
-  .bandiere {
+.bandiere{
   max-width: 45px;
   mix-width: 10px;
   max-height: 30px;
@@ -104,21 +119,6 @@
   border-radius: 10px;
   padding:5px;
   }
-  
-  h1 { color: black; 
-  font-size:36px;
-  text-align: center;
-  margin-top: 10px; 
-  text-shadow: 0px 0px 10px white;
-  }
-  
-h8{color: black;
-  font-size: 16px;
-  font-family: Helvetica;
-  text-align: center;
-  margin-top: 10px; 
-  text-shadow: 0px 0px 10px white;}
-}
 #spazio{
   padding-top: 50px;
   margin: auto;
