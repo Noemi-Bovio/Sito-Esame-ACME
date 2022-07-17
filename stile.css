@@ -10,21 +10,6 @@
   background-attachment: fixed;
   background-position: center;
   }
-h1{ 
-  color: black; 
-  font-size:36px;
-  text-align: center;
-  margin-top: 10px; 
-  text-shadow: 0px 0px 10px white;
-  }
-h8{
-  color: black;
-  font-size: 16px;
-  font-family: Helvetica;
-  text-align: center;
-  margin-top: 10px; 
-  text-shadow: 0px 0px 10px white;}
-}
 #bandatop{
   border-bottom: 3px solid red; 
   background-color: white;
@@ -107,6 +92,21 @@ h8{
   25%  {border:3px solid yellow;border-radius: 10px}
   50%  {border:3px solid blue;border-radius: 10px}
   100% {border:3px solid green;border-radius: 10px}
+}
+h1{ 
+  color: black; 
+  font-size:36px;
+  text-align: center;
+  margin-top: 10px; 
+  text-shadow: 0px 0px 10px white;
+  }
+h8{
+  color: black;
+  font-size: 16px;
+  font-family: Helvetica;
+  text-align: center;
+  margin-top: 10px; 
+  text-shadow: 0px 0px 10px white;}
 }
 @media screen and (max-width: 690px) 
 {
