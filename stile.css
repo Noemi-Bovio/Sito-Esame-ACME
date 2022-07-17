@@ -190,6 +190,7 @@ h1{
 }
 h3{
   color: white;
+  font-size:35px;
   text-align: center;
   font-family:Helvetica;
 }
@@ -204,10 +205,11 @@ h5{
   color: black;
 }
 .tasto i{
-    font-size:40px;
+    font-size:55px;
   }
 .tasto h3{ 
-    font-size: 36px;
+    font-size:20px;
+    color: white;
   }
 @media screen and (max-width: 690px) {
   #box1{
@@ -236,10 +238,10 @@ h5{
   color: black;
   }
 .tasto i{
-    font-size:25px;
+    font-size:30px;
   }
 .tasto h3{
-    font-size:20px;
+    font-size:15px;
   }
 a:link{
   color:white;
