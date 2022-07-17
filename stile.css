@@ -256,13 +256,14 @@ a:visited{
   color:white;
   text-decoration: none;
  }
+}
 #spazio1{
   padding-top: 40px;
   margin: auto;
   width: -50px;
   height: -70px;
  }
- #parte1{
+.parte1{
   background-color: black;
   min-width: 100px;
   max-width: 1200px;
@@ -282,6 +283,10 @@ a:visited{
   heigh: auto;
   border-radius:10px;
 }
+.scritta1{
+  display: inline-block;
+  width: 550px;
+}
 h4{
   font-size:12px;
   font-family:Helvetica;
@@ -293,10 +298,6 @@ h2{
   padding-left: 20px;
   letter-spacing: 1px;
   font-size:35px;
-}
-.scritta1{
-  display: inline-block;
-  width: 550px;
 }
 h6{
   font-size:14px;
@@ -317,24 +318,16 @@ h6{
   margin: 20px auto 0px auto;
   border-radius:10px;
 }
-#immagine {
-  width: 80%;
-    height: 200px;
-    border-radius:10px;
-  }
 .scritta2{
   display: inline-block; 
   margin-left: 700px;
   margin-top: -700px;
 }
-
-h7{
-  font-size:36px;
-  color: white;
-   margin: auto;
-  text-align: center;
- }
- 
+#immagine {
+  width: 80%;
+    height: 200px;
+    border-radius:10px;
+  }
 .dipartimenti {background-color: black;
    padding: 30px;
    color: white;
