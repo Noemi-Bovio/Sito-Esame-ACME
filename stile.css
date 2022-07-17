@@ -204,6 +204,12 @@ h5{
   margin: 25px 40px 20px -15px;
   color: black;
 }
+.tasto i{
+    font-size:60px;
+  }
+.tasto h3{
+    font-size: 36px;
+  }
 @media screen and (max-width: 690px) {
   #box1{
     background-color: orange;
