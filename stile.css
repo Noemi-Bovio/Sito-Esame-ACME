@@ -159,7 +159,7 @@ h1{
  }
 }
 @media screen and (max-width: 400px) 
-
+{
 #bottoncinocookie {
   position: fixed;
   top: 120px;
@@ -178,6 +178,7 @@ h1{
 #perchiudere{
   font-size: 15px;
   margin-left: 185px;
+  }
 }
 #box1{
   min-width: 100px;
