@@ -202,7 +202,7 @@ h5{
  }
 .tasto{
   display: inline-block;
-  margin: 25px 40px 20px -15px;
+  margin: 25px 50px 20px -15px;
   color: black;
 }
 .tasto i{
@@ -255,7 +255,6 @@ a:hover{
 a:visited{
   color:white;
   text-decoration: none;
-}
  }
 .box1{
   background-color: black;
@@ -275,19 +274,6 @@ a:visited{
   max-width: 1200px;
   margin: 20px auto 0px auto;
   border-radius:10px;
-}
-
-a:link{
-  color:white;
-  text-decoration: none;
-}
-a:hover{
-  color: black !important;
-  text-decoration: none;
-}
-a:visited{
-  color:white;
-  text-decoration: none;
 }
 h4{
   font-size:12px;
