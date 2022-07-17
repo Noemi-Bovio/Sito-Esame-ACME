@@ -283,6 +283,15 @@ a:visited{
   heigh: auto;
   border-radius:10px;
 }
+.box2{
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  border-radius:10px;
+}
 .scritta1{
   display: inline-block;
   width: 550px;
