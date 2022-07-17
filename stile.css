@@ -262,6 +262,16 @@ a:visited{
   width: -50px;
   height: -70px;
  }
+ #parte1{
+  background-color: black;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: auto;
+  heigh: auto;
+  border-radius:10px;
+  text-align:center;
+  padding: 15px;
+  }
 .box1{
   background-color: black;
   padding: 30px;
@@ -270,15 +280,6 @@ a:visited{
   max-width: 1200px;
   margin: 20px auto 0px auto;
   heigh: auto;
-  border-radius:10px;
-}
-.box2{
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
   border-radius:10px;
 }
 h4{
@@ -307,6 +308,15 @@ h6{
    width: 80%;
    height: 200px;
   }
+.box2{
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  border-radius:10px;
+}
 #immagine {
   width: 80%;
     height: 200px;
