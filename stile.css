@@ -273,7 +273,7 @@ a:visited{
   text-align:center;
   padding: 15px;
   }
-.box1{
+#box2{
   background-color: black;
   padding: 30px;
   color: white;
@@ -283,7 +283,7 @@ a:visited{
   heigh: auto;
   border-radius:10px;
 }
-.box2{
+#box3{
   background-color: black;
   padding: 30px;
   color: white;
