@@ -37,36 +37,7 @@
   margin-top: -5px;
   padding:2px;
 }
-@media screen and (max-width:600px) {
-  #bandatop{
-    border-bottom: 3px solid red; 
-  background-color: white;
-  position: fixed;
-  opacity: 0.9;
-  width: 100%;
-  max-height: 75%;
-  min-heght: 5%;
-  margin: auto;
- }
-.bandiere{
-  max-width: 45px;
-  mix-width: 10px;
-  max-height: 30px;
-  mix-height: 5px;
-  float: left;
-  margin: 10px -15px 0px 20px;
-  }
-#logo{
-  max-height: 80px;
-  mix-width: 5px;
-  max-width: 140px;
-  mix-width: 10px;
-  margin:auto;
-  float:none;
-  margin-top: -5px;
-  padding:2px;
-  }
- }
+
   #spazio1{
   padding-top: 40px;
   margin: auto;
@@ -120,66 +91,7 @@ h8{
   width: -50px;
   height: -70px;
  }
-@media screen and (max-width: 690px) 
-{
-  #boxtondo{ 
-  min-width: 100px;
-  max-width: 580px;
-  margin: auto;
-  text-align: center;
-  background-color: #D4E4F7;
-  border-radius: 10px;
-  padding:5px;
-  }
-h8{
-  color: black;
-  font-size: 16px;
-  font-family: Helvetica;
-  text-align: center;
-  margin-top: 10px; 
-  text-shadow: 0px 0px 10px white;}
-}
-h1{ 
-  color: black; 
-  font-size:36px;
-  text-align: center;
-  margin-top: 10px; 
-  text-shadow: 0px 0px 10px white;
-  }
-#spazio{
-  padding-top: 50px;
-  margin: auto;
-  height: 80px;
-  width: 70px;}
-#spazio1{
-  padding-top: 40px;
-  margin: auto;
-  width: -50px;
-  height: -70px;
- }
-}
-@media screen and (max-width: 400px) 
-{
-#bottoncinocookie {
-  position: fixed;
-  top: 120px;
-  left: 20px;
-  width: 100px;
-  border-radius: 10px;
-}
-#cookie{
-  color: white;
-  font-size:10px;
-  background-color: black;
-  margin: 2px solid white;
-  width: 200px;
-  padding: 15px
-}
-#perchiudere{
-  font-size: 15px;
-  margin-left: 185px;
-  }
-}
+
 #box1{
   min-width: 100px;
   max-width: 1200px;
@@ -212,51 +124,6 @@ h5{
     font-size:20px;
     color: white;
   }
-@media screen and (max-width: 690px) {
-  #box1{
-    background-color: orange;
-    min-width: 100px;
-    max-width: 1200px;
-    margin: auto;
-    heigh: auto;
-    border-radius:10px;
-    text-align:center;
-    padding: 15px;
-h3{
-  color: white;
-  font-size:12px;
-  text-align: center;
-  font-family:Helvetica;
-}
-h5{ 
-  color: white;
-  font-size:15px;
-  text-align: center;
- }
-.tasto{
-  display: inline-block;
-  margin: auto;
-  color: black;
-  }
-.tasto i{
-    font-size:30px;
-  }
-.tasto h3{
-    font-size:12px;
-  }
-a:link{
-  color:white;
-  text-decoration: none;
-}
-a:hover{
-  color: black !important;
-  text-decoration: none;
-}
-a:visited{
-  color:white;
-  text-decoration: none;
- }
-}
 #boxtotale1{
    background-color: orange;
    padding: 30px;
@@ -327,102 +194,7 @@ h6{
   margin-left: 700px;
   margin-top: -700px;
 }
-@media screen and (max-width: 1200px) {
-  #boxtotale1{
-   background-color: orange;
-   padding: 30px;
-   color: white;
-   max-width: 1100px;
-   min-width: 100px;
-   max-height: 1000px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
-   border-radius:10px;
-}
-.box2{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   max-width: 1240px;
-   min-width: 100px;
-   max-height: 900px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
-   border-radius:10px;
-  }
-}
-@media screen and (max-width: 1240px) {
-  .box2{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   max-width: 1240px;
-   min-width: 100px;
-   max-height: 900px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
-   border-radius:10px;
-}
- .box2{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   max-width: 1240px;
-   min-width: 100px;
-   max-height: 900px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
-   border-radius:10px;
-}
-a:link{
-  color:white;
-  text-decoration: none;
-}
-a:hover{
-  color: black !important;
-  text-decoration: none;
-}
-a:visited{
-  color:white;
-  text-decoration: none;
- }
-h4{
-  font-size:12px;
-  font-family:Helvetica;
-  letter-spacing: 5px; 
-  margin-top: 10px;
- }
-h2{
-  border-left: 10px solid orange;
-  padding-left: 20px;
-  letter-spacing: 1px;
-  font-size:35px;
-}
-.scritta1{
-  display: inline-block;
-  width: 550px;
-}
-h6{
-  font-size:14px;
-  font-family:Helvetica;
-  margin-top: 10px;
- }
-.video {
-   border-radius:10px;
-   width: 80%;
-   height: 200px;
-  }
-#immagine {
-  width: 80%;
-    height: 200px;
-    border-radius:10px;
-  }
-.scritta2{
-  display: inline-block; 
-  margin-left: 700px;
-  margin-top: -700px;
-  }
-}
+
 .dipartimenti {background-color: black;
    padding: 30px;
    color: white;
