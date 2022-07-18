@@ -286,6 +286,12 @@ h6{
 }
 @media screen and (max-width: 690px) {
   #box1{
+    #spazio{
+    padding-top: 50px;
+    margin: auto;
+    height: 80px;
+    width: 70px;}
+    
     background-color: orange;
     min-width: 100px;
     max-width: 580px;
