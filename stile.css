@@ -4,6 +4,8 @@
   width: 100%;
   background-size: 100%;
   background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -325,8 +327,43 @@ h6{
   margin-left: 700px;
   margin-top: -700px;
 }
+@media screen and (max-width: 1200px) {
+  #boxtotale1{
+   background-color: orange;
+   padding: 30px;
+   color: white;
+   max-width: 1100px;
+   min-width: 100px;
+   max-height: 1000px;
+   min-height: 50px;
+   margin: 20px auto 0px auto;
+   border-radius:10px;
+}
+.box2{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   max-width: 1240px;
+   min-width: 100px;
+   max-height: 900px;
+   min-height: 50px;
+   margin: 20px auto 0px auto;
+   border-radius:10px;
+  }
+}
 @media screen and (max-width: 1240px) {
   .box2{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   max-width: 1240px;
+   min-width: 100px;
+   max-height: 900px;
+   min-height: 50px;
+   margin: 20px auto 0px auto;
+   border-radius:10px;
+}
+ .box2{
    background-color: black;
    padding: 30px;
    color: white;
@@ -384,30 +421,6 @@ h6{
   display: inline-block; 
   margin-left: 700px;
   margin-top: -700px;
-  }
-}
-   @media screen and (max-width: 1200px) {
-#boxtotale1{
-   background-color: orange;
-   padding: 30px;
-   color: white;
-   max-width: 1100px;
-   min-width: 100px;
-   max-height: 1000px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
-   border-radius:10px;
-}
-.box2{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   max-width: 1240px;
-   min-width: 100px;
-   max-height: 900px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
-   border-radius:10px;
   }
 }
 .dipartimenti {background-color: black;
