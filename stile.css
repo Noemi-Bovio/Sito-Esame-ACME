@@ -230,7 +230,7 @@ h3{
 }
 h5{ 
   color: white;
-  font-size:12px;
+  font-size:10px;
   text-align: center;
  }
 .tasto{
@@ -242,7 +242,7 @@ h5{
     font-size:30px;
   }
 .tasto h3{
-    font-size:15px;
+    font-size:12px;
   }
 a:link{
   color:white;
@@ -257,35 +257,36 @@ a:visited{
   text-decoration: none;
  }
 }
-#spazio1{
-  padding-top: 40px;
-  margin: auto;
-  width: -50px;
-  height: -70px;
- }
-#parte1{
-  background-color: black;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: auto;
-  heigh: auto;
-  border-radius:10px;
-  text-align:center;
-  padding: 15px;
-  }
 .box2{
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
-  heigh: auto;
+   background-color: black;
+   padding: 30px;
+   color: white;
+   width: 1100px;
+   height: 900px;
+   margin: 20px auto 0px auto;
+   border-radius:10px;
+}
+.box3{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1000px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
   border-radius:10px;
 }
-.scritta1{
-  display: inline-block;
-  width: 550px;
+a:link{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color: black !important;
+  text-decoration: none;
+}
+a:visited{
+  color:white;
+  text-decoration: none;
+ }
 }
 h4{
   font-size:12px;
@@ -299,35 +300,30 @@ h2{
   letter-spacing: 1px;
   font-size:35px;
 }
+.scritta1{
+  display: inline-block;
+  width: 550px;
+}
 h6{
   font-size:14px;
   font-family:Helvetica;
   margin-top: 10px;
  }
-#video {
+.video {
    border-radius:10px;
    width: 80%;
    height: 200px;
   }
-.box3{
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
-  border-radius:10px;
-}
-.scritta2{
-  display: inline-block; 
-  margin-left: 700px;
-  margin-top: -700px;
-}
 #immagine {
   width: 80%;
     height: 200px;
     border-radius:10px;
   }
+.scritta2{
+  display: inline-block; 
+  margin-left: 700px;
+  margin-top: -700px;
+}
  @media screen and (max-width: 1200px) {
 .box2{
   background-color: black;
@@ -338,35 +334,18 @@ h6{
   margin: 20px auto 0px auto;
   heigh: auto;
   border-radius:10px;
-}
-   .box3{
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
+ } 
+ .box3{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1000px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
   border-radius:10px;
-  }
- h4{
-  font-size:12px;
-  font-family:Helvetica;
-  letter-spacing: 5px; 
-  margin-top: 10px;
- }
-h2{
-  border-left: 10px solid orange;
-  padding-left: 20px;
-  letter-spacing: 1px;
-  font-size:35px;
 }
-h6{
-  font-size:14px;
-  font-family:Helvetica;
-  margin-top: 10px;
- }
- }
   
+}
 .dipartimenti {background-color: black;
    padding: 30px;
    color: white;
