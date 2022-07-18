@@ -158,6 +158,29 @@ h1{
   height: -70px;
  }
 }
+@media screen and (max-width: 400px) 
+{
+#bottoncinocookie {
+  position: fixed;
+  top: 120px;
+  left: 20px;
+  width: 100px;
+  border-radius: 10px;
+}
+#cookie{
+  color: white;
+  font-size:10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px
+}
+#perchiudere{
+  font-size: 15px;
+  margin-left: 185px;
+  }
+}
+
 
 
 #box1{
