@@ -213,7 +213,6 @@ h5{
     font-size:20px;
     color: white;
   }
-
 #boxtotale1{
    background-color: orange;
    padding: 30px;
@@ -284,6 +283,79 @@ h6{
   margin-left: 700px;
   margin-top: -700px;
 }
+@media screen and (max-width: 690px) {
+  #boxtotale1{
+   background-color: orange;
+   padding: 30px;
+   color: white;
+   max-width: 1100px;
+   min-width: 100px;
+   max-height: 1000px;
+   min-height: 50px;
+   margin: 20px auto 0px auto;
+   border-radius:10px;
+}
+.box2{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   max-width: 1240px;
+   min-width: 100px;
+   max-height: 900px;
+   min-height: 50px;
+   margin: 20px auto 0px auto;
+   border-radius:10px;
+}
+a:link{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color: black !important;
+  text-decoration: none;
+}
+a:visited{
+  color:white;
+  text-decoration: none;
+ }
+h4{
+  font-size:12px;
+  font-family:Helvetica;
+  letter-spacing: 5px; 
+  margin-top: 10px;
+ }
+h2{
+  border-left: 10px solid orange;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  font-size:35px;
+}
+.scritta1{
+  display: inline-block;
+  width: 550px;
+}
+h6{
+  font-size:14px;
+  font-family:Helvetica;
+  margin-top: 10px;
+ }
+.video {
+   border-radius:10px;
+   width: 80%;
+   height: 200px;
+  }
+.immagine {
+  width: 80%;
+    height: 200px;
+    border-radius:10px;
+  }
+.scritta2{
+  display: inline-block; 
+  margin-left: 700px;
+  margin-top: -700px;
+  }
+ }
+
 @media screen and (max-width: 690px) {
   #box1{
     #spazio{
