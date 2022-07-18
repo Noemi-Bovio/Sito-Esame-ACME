@@ -215,23 +215,21 @@ h5{
   }
 #boxtotale1{
    background-color: orange;
-   padding: 30px;
-   color: white;
-   max-width: 1100px;
+   padding: 10px;
+   max-width: 690px;
    min-width: 100px;
-   max-height: 1000px;
-   min-height: 50px;
+   height: auto;
    margin: 20px auto 0px auto;
+   border-radius:10px;
+   margin: auto;
    border-radius:10px;
 }
 .box2{
    background-color: black;
    padding: 30px;
-   color: white;
-   max-width: 1240px;
+   max-width: 600px;
    min-width: 100px;
-   max-height: 900px;
-   min-height: 50px;
+   height: auto;
    margin: 20px auto 0px auto;
    border-radius:10px;
 }
@@ -286,23 +284,20 @@ h6{
 @media screen and (max-width: 690px) {
   #boxtotale1{
    background-color: orange;
-   padding: 30px;
-   color: white;
-   max-width: 1100px;
+   padding: 10px;
+   max-width: 690px;
    min-width: 100px;
-   max-height: 1000px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
+   height: auto;
+   margin: auto;
    border-radius:10px;
 }
 .box2{
    background-color: black;
    padding: 30px;
    color: white;
-   max-width: 1240px;
+   max-width: 600px;
    min-width: 100px;
-   max-height: 900px;
-   min-height: 50px;
+   height: auto;
    margin: 20px auto 0px auto;
    border-radius:10px;
 }
