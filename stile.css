@@ -316,17 +316,6 @@ h6{
   margin-left: 700px;
   margin-top: -700px;
 }
-  .box2{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   max-width: 1240px;
-   min-width: 100px;
-   max-height: 900px;
-   min-height: 50px;
-   margin: 20px auto 0px auto;
-   border-radius:10px;
-}
 @media screen and (max-width: 1240px) {
   .box2{
    background-color: black;
@@ -387,6 +376,26 @@ h6{
   margin-left: 700px;
   margin-top: -700px;
   }
+}
+   @media screen and (max-width: 1200px) {
+.box2{
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  heigh: auto;
+  border-radius:10px;
+ } 
+ .box3{
+   background-color: black;
+   padding: 30px;
+   color: white;
+   min-width: 1000px;
+   max-width: 1200px;
+   margin: 20px auto 0px auto;
+  border-radius:10px;
 }
 .dipartimenti {background-color: black;
    padding: 30px;
