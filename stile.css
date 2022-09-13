@@ -204,7 +204,7 @@ iframe {
 
 p #titolofake{
     font-size:50px;
-    color: black;
+    color: white;
 }
 .dipartimenti {
    background-color: black;
@@ -226,6 +226,17 @@ p #titolofake{
   margin-top: 40px;
   display: inline-block;
 }
+p .titoloscuole {
+    font-size:50px;
+    color: black;
+}
+p .scuole {
+    font-size:30px;
+    color: black;
+}
+
+
+
 #bottoncinocookie {
   position: fixed;
   bottom: 10px;
