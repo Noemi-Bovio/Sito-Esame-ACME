@@ -127,7 +127,7 @@ h5{
    margin: 50px auto;
    border-radius:10px;
 }
-.box2{
+#box2{
    background-color: black;
    padding: 30px;
    max-width: 600px;
@@ -136,7 +136,7 @@ h5{
    margin: 20px auto 0px auto;
    border-radius:10px;
 }
-.box3{
+#box3{
    background-color: black;
    padding: 30px;
    max-width: 600px;
