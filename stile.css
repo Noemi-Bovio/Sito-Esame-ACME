@@ -205,7 +205,15 @@ iframe {
 }
 
 
-
+#titdipart{
+  color: blue;
+  margin:auto;
+  padding: 10px;
+  text-align:center;
+  border-radius:10px;
+  height:auto;
+  width: 80px;
+}
 p #titolofake{
     font-size:50px;
     color: white;
