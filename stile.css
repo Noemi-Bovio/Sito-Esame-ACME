@@ -202,11 +202,11 @@ iframe {
   padding: 10px;
   text-align:center;
   border-radius:10px;
-  height:auto;
-  width: 130px;
+  height:35px;
+  width: 300px;
 }
 p2{
-    font-size:50px;
+    font-size:30px;
     color: white;
 }
 .dipartimenti {
