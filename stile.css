@@ -239,6 +239,14 @@ p .scuole {
 }
 
 
+.box4{
+  background-color:black;
+  text-color: white;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
 
 #bottoncinocookie {
   position: fixed;
