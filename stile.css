@@ -49,7 +49,7 @@
   max-width: 600px; 
   margin: 0px auto 70px auto;
   text-align: center;
-  background-color:#c6c4c6;
+  background-color:#ab9569;
   border-radius: 10px; 
   padding:10px;
 }
@@ -137,11 +137,11 @@ h3{
    border-radius:10px;
 }
 a:link{
-  color:white;
+  color:black;
   text-decoration: none;
 }
 a:hover{
-  color:black;
+  color:white;
   text-decoration: none;
 }
 a:visited{
@@ -203,7 +203,7 @@ p2{
     color: white;
 }
 .dipartimenti {
-   background-color: black;
+   background-color: #ab9569;
    padding: 30px;
    color: white;
    min-width: 1000px;
