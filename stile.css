@@ -137,15 +137,15 @@ h3{
    border-radius:10px;
 }
 a:link{
-  color:white;
-  text-decoration: none;
-}
-a:hover{
   color:black;
   text-decoration: none;
 }
-a:visited{
+a:hover{
   color:white;
+  text-decoration: none;
+}
+a:visited{
+  color:black;
   text-decoration: none;
   }
 a:active {
@@ -203,7 +203,7 @@ p2{
     color: white;
 }
 .dipartimenti {
-   background-color: #ab9569;
+   background-color:#90bac9;
    padding: 30px;
    color: white;
    min-width: 1000px;
