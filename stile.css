@@ -49,7 +49,7 @@
   max-width: 600px; 
   margin: 0px auto 70px auto;
   text-align: center;
-  background-color:#78c4db;
+  background-color:#c6c4c6;
   border-radius: 10px; 
   padding:10px;
 }
@@ -141,16 +141,16 @@ a:link{
   text-decoration: none;
 }
 a:hover{
-  color: orange;
+  color: white;
   text-decoration: none;
 }
 a:visited{
-  color:white;
+  color:black;
   text-decoration: none;
  }
 a:active {
  color:orange;
- text-decoration: underline
+ text-decoration: underline;
 } 
 
 h4{
@@ -190,7 +190,7 @@ iframe {
 
 
 #titdipart{
-  background-color: #D4E4F7;
+  background-color:white;
   margin:auto;
   padding: 10px;
   text-align:center;
