@@ -97,7 +97,7 @@ h3{
 }
 .tasto{
   display: inline-block;
-  margin: 25px 50px 20px -15px;
+  margin: 30px 50px 25px 25px;
   color: black;
 }
 .tasto i{
