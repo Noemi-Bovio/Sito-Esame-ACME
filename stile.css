@@ -161,11 +161,11 @@ h4{
   margin-top: 10px;
  }
 h2
-{color: orange;
+{ 
+  border-left: 10px solid orange;
+  padding-left: 20px;
+  letter-spacing: 1px;
   font-size:35px;
-  text-align: center;
-  font-family:Helvetica;
-}
 .scritta1{
   width: 550px;
   color: white;
