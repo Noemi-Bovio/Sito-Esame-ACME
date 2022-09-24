@@ -1,5 +1,5 @@
 .background { font-family: 'Tiro Devanagari Sanskrit', serif; 
-  font-size: 14px;
+  font-size: 16px;
   background-image: url("immagini/sfondo.jpg");
   margin: 0px;
   width: 100%;
@@ -160,11 +160,12 @@ h4{
   letter-spacing: 5px; 
   margin-top: 10px;
  }
-h2{
-  border-left: 10px solid orange;
-  padding-left: 20px;
-  letter-spacing: 1px;
-  font-size:35px;
+h2
+{font-size: 25px;
+  color: orange;
+  font-family:Helvetica;
+  letter-spacing: 5px; 
+  margin-top: 10px;
 }
 .scritta1{
   width: 550px;
