@@ -53,18 +53,6 @@
   border-radius: 10px; 
   padding:10px;
 }
- a:link1{
-  color: white;
-  text-decoration: none;
-}
-a:hover{
-  color: black;
-  text-decoration: none;
-}
-a:visited{
-  color: blue;
-  text-decoration: none;
-}
 .animazione{
  min-width: 100px;
  max-width: 600px;
@@ -150,7 +138,7 @@ h3{
    border-radius:10px;
 }
 a:link{
-  color:white;
+  color:black;
   text-decoration: none;
 }
 a:hover{
