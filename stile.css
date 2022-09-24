@@ -50,7 +50,7 @@
   max-width: 600px; 
   margin: 0px auto 70px auto;
   text-align: center;
-  background-color:#b3d9ff;
+  background-color:#d0bca7;
   border-radius: 10px; 
   padding:10px;
 }
@@ -161,11 +161,11 @@ h4{
   margin-top: 10px;
  }
 h2
-{ border-left: 10px solid white;
+{ border-left: 10px solid orange;
   padding-left: 20px;
   letter-spacing: 1px;
   font-size:35px;
-  color: orange;
+  color:#d0bca7;
  }
 .scritta1{
   width: 550px;
@@ -225,7 +225,7 @@ p2{
 }
 
 .titoloscuole {
-    font-size:70px;
+    font-size:28px;
     color: orange;
 }
 p .scuole {
