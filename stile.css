@@ -549,7 +549,8 @@ footer{
 }
 #testofooter{
   max-width: 500px;
-  font-size: 15px;
+  font-size: 14px;
+  margin: 15px 25px auto auto;
 }
 
 @media screen and (max-width: 690px){
@@ -605,6 +606,7 @@ footer{
 }
 #testofooter{
   max-width: 500px;
-  font-size: 15px;
+  font-size: 14px;
+  margin: 15px 25px auto auto;
   }
 }
