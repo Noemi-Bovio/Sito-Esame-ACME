@@ -37,6 +37,35 @@
   margin: -5px 30px 0px 0px;
 }
 
+@media screen and (max-width: 690px) {
+  #bandatop{
+  border-bottom: 3px solid red; 
+  background-color: white;
+  position: fixed;
+  opacity: 0.9;
+  width: 100%;
+  max-height: 75%;
+  min-heght: 5%;
+  margin: auto;
+}
+.bandiere{
+  max-width: 45px;
+  mix-width: 10px;
+  max-height: 30px;
+  mix-height: 5px;
+  float: left;
+  margin: 20px -15px 0px 30px;
+}
+#logo{
+  max-height: 80px;
+  mix-width: 5px;
+  max-width: 140px;
+  mix-width: 10px;
+  float: right;
+  margin: -5px 30px 0px 0px;
+  }
+}
+
 #spazio{
   padding-top: 100px;
  }
