@@ -192,13 +192,14 @@ iframe {
 
 
 #titdipart{
-  background-color:white;
+  background-color:#90bac9;
   margin:auto;
   padding: 10px;
   text-align:center;
   border-radius:10px;
   height:35px;
   width: 300px;
+  border: 3px solid white;
 }
 p2{
     font-size:30px;
@@ -224,6 +225,7 @@ p2{
   width: 150px;
   margin-top: 40px;
   display: inline-block;
+  border: 3px solid black;
 }
 
 .titoloscuole {
@@ -243,6 +245,7 @@ p .scuole {
   padding: 20px;
   border-radius:10px;
   width: 710px;
+  border: 3px solid black;
 }
 
 
