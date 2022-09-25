@@ -269,9 +269,9 @@ h2
 }
 .video {
    border-radius:10px;
-   max-width: 550px;
+   max-width: 690px;
    min-width: 100px;
-   max-height: 150px;
+   max-height: 200px;
    mix-height: 50px;
  }
 iframe {
@@ -355,9 +355,9 @@ h2
 }
 .video {
    border-radius:10px;
-   max-width: 550px;
+   max-width: 690px;
    min-width: 100px;
-   max-height: 150px;
+   max-height: 200px;
    mix-height: 50px;
  }
 iframe {
