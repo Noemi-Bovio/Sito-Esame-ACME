@@ -220,21 +220,22 @@ p2{
   border-radius:10px;
   border: 3px solid orange;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   height: auto;
-  width: 150px;
-  margin-top: 40px;
+  width: 415px;
+  margin-top: 15px;
   display: inline-block;
-  border: 3px solid black;
+  border: 3px solid orange
 }
 
 .titoloscuole {
-    font-size:28px;
+    font-size:20px;
     color: orange;
 }
 p .scuole {
-    font-size:30px;
-    color: black;
+    font-size:15px;
+    color:white;
+    family-font:Helvetica;
 }
 
 
