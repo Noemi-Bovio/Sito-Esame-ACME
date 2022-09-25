@@ -239,7 +239,7 @@ p2{
 
 
 .box4{
-  background-color:orange;
+  background-color:#90bac9;
   text-color: white;
   margin: 40px auto;
   padding: 20px;
@@ -282,7 +282,8 @@ p2{
 footer{
   background-color: black;
   width: 100%;
-  padding: 5px;
+  height: auto;
+  padding: 20px;
 }
 #contatti{
   text-align: center;
