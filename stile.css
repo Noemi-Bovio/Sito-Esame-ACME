@@ -30,7 +30,8 @@
 }
 #logo{
   max-height: 80px;
-  mix-width: 5px;
+  min-height: 5px;
+  mix-width: 10px;
   max-width: 140px;
   float: right;
   margin: auto;
@@ -57,9 +58,10 @@
 }
 #logo{
   max-height: 80px;
-  mix-height: 15px;
-  mix-width: 5px;
+  min-height: 5px;
+  mix-width: 10px;
   max-width: 140px;
+  float: right;
   margin: auto;
   }
  #spazio{
