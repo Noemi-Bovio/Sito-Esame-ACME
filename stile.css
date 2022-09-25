@@ -60,6 +60,8 @@
   mix-height: 15px;
   mix-width: 5px;
   max-width: 140px;
+  float: right;
+  margin: -5px 0px 0px 0px;
   }
  #spazio{
   padding-top: 100px;
