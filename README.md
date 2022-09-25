@@ -1,3 +1,3 @@
 # Sito-Esame-ACME
-Creazione sito ACME per esame di Web Design 
+Creazione sito per Accademia delle Belle Arti di Novara. Esame di Web Design.
 https://bovionoemisitoacmeesame.netlify.app
