@@ -424,8 +424,7 @@ p2{
   padding: 25px;
   height: auto;
   max-width: 482px;
-  margin-top: 15px;
-  display: inline-block;
+  margin: 15px auto auto auto;
   border: 3px solid orange;
 }
 
@@ -459,8 +458,7 @@ p2{
   padding: 25px;
   height: auto;
   max-width: 482px;
-  margin-top: 15px;
-  display: inline-block;
+  margin: 15px auto auto auto;
   border: 3px solid orange;
 }
 
