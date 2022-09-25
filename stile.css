@@ -241,7 +241,7 @@ a:hover{
   text-decoration: none;
 }
 a:visited{
-  color:black;
+  color:black important!;
   text-decoration: none;
   }
 a:active {
