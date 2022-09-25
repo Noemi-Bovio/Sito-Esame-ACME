@@ -111,7 +111,7 @@ h3{
 
 
 #boxtotale1{
-   background-color: orange;
+   background-color:#ae9765;
    padding: 10px;
    max-width: 690px;
    min-width: 100px;
@@ -205,7 +205,7 @@ p2{
     color: white;
 }
 .dipartimenti {
-   background-color:#90bac9;
+   background-color:#ae9765;
    padding: 30px;
    color: white;
    min-width: 1000px;
@@ -213,6 +213,7 @@ p2{
    margin: 20px auto 0px auto;
    border-radius:10px;
    text-align:center;
+   border: 3px solid black;
 }
 #boxscuole{
   border-radius:10px;
