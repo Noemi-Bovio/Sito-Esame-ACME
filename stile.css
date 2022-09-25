@@ -261,13 +261,14 @@ h2
   color: white;
  }
 .scritta1{
-  width: 550px;
+  max-width: 550px;
+  min-width: 100px;
   color: white;
 }
 .video {
    border-radius:10px;
-   width: auto;
-   height: 354px;
+   width: 80%;
+   height: 200px;
  }
 iframe {
   height:350px;
@@ -278,8 +279,9 @@ iframe {
     border-radius:10px;
   }
 .scritta2{
-    width: 550px;
-    color: white;
+  max-width: 550px;
+  min-width: 100px;
+  color: white;
 }
 
 @media screen and (max-width: 690px) {
@@ -343,7 +345,8 @@ h2
   color: white;
  }
 .scritta1{
-  width: 550px;
+  max-width: 550px;
+  min-width: 100px;
   color: white;
 }
 .video {
@@ -360,7 +363,8 @@ iframe {
     border-radius:10px;
   }
 .scritta2{
-    width: 550px;
+    max-width: 550px;
+    min-width: 100px;
     color: white;
  }
 }
