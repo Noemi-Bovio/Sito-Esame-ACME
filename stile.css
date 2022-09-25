@@ -218,19 +218,19 @@ p2{
 }
 .boxscuole{
   border-radius:10px;
-  border: 3px solid orange;
   text-align: center;
   padding: 25px;
   height: auto;
-  width: 415px;
+  width: 555px;
   margin-top: 15px;
   display: inline-block;
-  border: 3px solid orange
+  border: 3px solid orange;
 }
 
 .titoloscuole {
-    font-size:20px;
+    font-size:22px;
     color: orange;
+    margin: 15px auto auto 0px;
 }
 p .scuole {
     font-size:15px;
