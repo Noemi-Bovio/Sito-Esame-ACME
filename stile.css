@@ -34,7 +34,7 @@
   mix-width: 10px;
   max-width: 140px;
   float: right;
-  margin: auto;
+  margin: 0px 40px auto auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -61,8 +61,8 @@
   min-height: 5px;
   mix-width: 10px;
   max-width: 140px;
-  float: center;
-  margin: auto;
+  float: right;
+  margin: 0px 40px auto auto;
   }
  #spazio{
   padding-top: 100px;
