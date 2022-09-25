@@ -268,11 +268,9 @@ h2
   color: white;
 }
 .video {
-   border-radius:10px;
-   max-width: 690px;
-   min-width: 100px;
-   max-height: 200px;
-   mix-height: 50px;
+    width: 80%;
+    height: 200px;
+    border-radius:10px;
  }
 iframe {
   height:350px;
@@ -354,11 +352,9 @@ h2
   color: white;
 }
 .video {
-   border-radius:10px;
-   max-width: 690px;
-   min-width: 100px;
-   max-height: 200px;
-   mix-height: 50px;
+    width: 80%;
+    height: 200px;
+    border-radius:10px;
  }
 iframe {
   height:350px;
