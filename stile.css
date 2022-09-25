@@ -281,10 +281,12 @@ p2{
 }
 footer{
   background-color: black;
-  text-align: center;
-  color: white;
   width: 100%;
   padding: 5px;
+}
+#contatti{
+  text-align: center;
+  color: white;
 }
 #map {
     width: 100%;
