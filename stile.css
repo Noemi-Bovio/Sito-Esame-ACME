@@ -423,7 +423,7 @@ p2{
   text-align: center;
   padding: 25px;
   height: auto;
-  min-width: 100px;
+  min-width: 50px;
   max-width: 482px;
   margin-top: 15px;
   display: inline-block;
@@ -441,7 +441,7 @@ p2{
     color:white;
 }
 
-@media screen and (max-width: 690px){
+@media screen and (max-width: 960px){
   .dipartimenti {
    background-color:black;
    padding: 40px;
@@ -459,7 +459,7 @@ p2{
   text-align: center;
   padding: 25px;
   height: auto;
-  min-width: 100px;
+  min-width: 50px;
   max-width: 482px;
   margin-top: 15px;
   display: inline-block;
@@ -488,7 +488,18 @@ p2{
   max-width: 960px;
   border: 3px solid black;
 }
-
+@media screen and (max-width: 690px){
+  .box4{
+  background-color:#90bac9;
+  text-color: white;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius:10px;
+  min-width: 100px;
+  max-width: 960px;
+  border: 3px solid black;
+  }
+}
 
 
 #bottoncinocookie {
