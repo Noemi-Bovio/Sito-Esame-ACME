@@ -32,12 +32,11 @@
   max-height: 80px;
   mix-width: 5px;
   max-width: 140px;
-  mix-width: 10px;
   float: right;
   margin: -5px 30px 0px 0px;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 600px) {
   #bandatop{
   border-bottom: 3px solid red; 
   background-color: white;
@@ -60,10 +59,12 @@
   max-height: 80px;
   mix-width: 5px;
   max-width: 140px;
-  mix-width: 10px;
   float: right;
   margin: -5px 30px 0px 0px;
   }
+ #spazio{
+  padding-top: 100px;
+ }
 }
 
 #spazio{
@@ -103,7 +104,41 @@ h1{
   text-shadow: 0px 0px 10px white;
   }
 
-
+@media screen and (max-width: 690px) {
+.boxtondo{
+  border:3px solid white;
+  min-width: 100px;
+  max-width: 600px; 
+  margin: 0px auto 70px auto;
+  text-align: center;
+  background-color:#90bac9;
+  border-radius: 10px; 
+  padding:10px;
+}
+.animazione{
+ min-width: 100px;
+ max-width: 600px;
+ text-align: center;
+ border-radius: 10px;
+ margin: auto;
+ padding:5px;
+ animation-name: example;
+ animation-duration: 10s;
+}
+@keyframes example{
+  0%   {border:3px solid red;border-radius: 10px}
+  25%  {border:3px solid yellow;border-radius: 10px}
+  50%  {border:3px solid blue;border-radius: 10px}
+  100% {border:3px solid green;border-radius: 10px}
+}
+h1{ 
+  color: black; 
+  font-size:36px;
+  text-align: center;
+  margin-top: 10px; 
+  text-shadow: 0px 0px 10px white;
+  }
+ }
 
 #box1{
   min-width: 100px;
